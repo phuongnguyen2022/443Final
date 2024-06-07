@@ -1,0 +1,178 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext DBContext
+@{
+    string userName = User.Identity.Name;
+    var user = DBContext.Users.SingleOrDefault(u => u.UserName == userName);
+
+    // Check if the user is authenticated
+    var isUserAuthenticated = user != null;
+
+    var voucher = DBContext.Voucher.ToList();
+    var vouchersOfUser = isUserAuthenticated
+        ? DBContext.UserVoucher
+            .Where(c => c.UserId == user.Id)
+            .Select(c => c.VoucherId)
+            .ToList()
+        : new List<int>();
+
+    foreach (var item in Model)
+    {
+        bool isVoucherOfUser = vouchersOfUser.Contains(item.ID);
+        <div class="container" style="padding: 5px">
+            <div class="card">
+                <div class="main">
+                    <div class="co-img">
+                        <img src="~/images/favicon.png"
+                             alt="" />
+                    </div>
+                    <div class="vertical"></div>
+                    <div class="content">
+                        <h2>@item.Name</h2>
+                        <h1>@item.Amount% <span>Coupon</span></h1>
+                        <p>Valid till 30 April 2021</p>
+                    </div>
+                </div>
+                <div class="copy-button">
+                    <input id="copyvalue" type="text" readonly value="@item.Code" />
+                    @if (isVoucherOfUser)
+                    {
+                        <button onclick="copyIt()" class="copybtn" disabled>
+                            Saved
+                        </button>
+                    }
+                    else
+                    {
+                        <button onclick="copyIt()" class="copybtn">
+                            <a asp-action="saveVoucher" asp-controller="Vouchers" asp-route-codeID="@item.ID">
+                                Save
+                            </a>
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    a {
+        color: white;
+    }
+
+    .card {
+        width: 400px;
+        height: 180px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        padding: 10px 10px;
+        position: relative;
+    }
+
+    .main,
+    .copy-button {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+    }
+
+    .card::after {
+        position: absolute;
+        content: "";
+        height: 40px;
+        right: -20px;
+        border-radius: 40px;
+        z-index: 1;
+        top: 70px;
+        background-color: #dc143c;
+        width: 40px;
+    }
+
+    .card::before {
+        position: absolute;
+        content: "";
+        height: 40px;
+        left: -20px;
+        border-radius: 40px;
+        z-index: 1;
+        top: 70px;
+        background-color: #dc143c;
+        width: 40px;
+    }
+
+    .co-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .vertical {
+        border-left: 5px dotted black;
+        height: 100px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .content h1 {
+        font-size: 35px;
+        margin-left: -20px;
+        color: #565656;
+    }
+
+        .content h1 span {
+            font-size: 18px;
+        }
+
+    .content h2 {
+        font-size: 18px;
+        margin-left: -20px;
+        color: #565656;
+        text-transform: uppercase;
+    }
+
+    .content p {
+        font-size: 16px;
+        color: #696969;
+        margin-left: -20px;
+    }
+
+    .copy-button {
+        margin: 12px 0 -5px 0;
+        height: 45px;
+        border-radius: 4px;
+        padding: 0 5px;
+        border: 1px solid #e1e1e1;
+    }
+
+        .copy-button input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .copy-button button {
+            padding: 5px 20px;
+            background-color: #dc143c;
+            color: #fff;
+            border: 1px solid transparent;
+        }
+
+    .buy {
+        position: absolute;
+        content: "";
+        bottom: 20px;
+        left: 20px;
+        background-color: #dc143c;
+    }
+</style>

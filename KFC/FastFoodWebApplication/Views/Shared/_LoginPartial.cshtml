@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using FastFoodWebApplication.Models
+@using Microsoft.EntityFrameworkCore;
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext DBContext
+
+@{
+    var defaultAva = "images/avt.jpg";
+    var user = await DBContext.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
+    
+}
+<ul class="navbar-nav">
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link" id="avatar" asp-area="" asp-action="Index" asp-controller="Account" title="Manage">
+                <span class="avatar-container">
+                    <img id="avt" src="/@(user?.Profile?.Avatar??defaultAva)" />
+                </span>
+                <span id="username">
+                    Hi @(user?.Profile == null ? user?.UserName : user?.Profile?.FullName)
+                </span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <form id="logoutForm" class="form-inline" asp-controller="Account" asp-action="Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="nav-link btn btn-link   border-0">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link" id="register" asp-controller="Account" asp-action="Register" style="color:white">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="login" asp-controller="Account" asp-action="Login" style="color:white">Login</a>
+        </li>
+    }
+</ul>
+
+<style>
+    #avt {
+        width: 100%;
+        height: 100%;
+    }
+
+    .avatar-container {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #avatar {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+
+}

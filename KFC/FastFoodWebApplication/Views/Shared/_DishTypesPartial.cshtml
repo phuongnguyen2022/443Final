@@ -1,0 +1,31 @@
+﻿@using Microsoft.EntityFrameworkCore;
+@using FastFoodWebApplication.Models;
+@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext _context
+@{
+    List<DishType> dishTypes = await _context.DishType.ToListAsync();
+}
+@*@inject IGenreService GenreService*@
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false" >
+        CATEGORIES
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        @{
+
+            for (int i = 0; i < dishTypes.Count; i++)
+            {
+                <li><a class="dropdown-item" type="button" asp-area="" asp-controller="Menu" asp-action="Index" asp-route-DishTypeId="@dishTypes[i].Id">@dishTypes[i].Name</a></li>
+            }
+        }
+
+    </ul>
+</div>
+<style>
+    .btn-secondary {
+        color: white;
+        background-color: black;
+        border-color: black;
+        margin-top: -2px;
+    }
+</style>

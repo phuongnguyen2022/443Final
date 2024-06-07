@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Log out";
+}
+@await Html.PartialAsync("_HeadPartial")
+
+
+<header >
+    <h1 style="margin-left: 100px">@ViewData["Title"]</h1>
+    @{
+        if (User.Identity?.IsAuthenticated ?? false)
+        {
+            <form class="form-inline" asp-controller="Account" asp-action="Logout" asp-route-returnUrl="@Url.Page("/index", new { area = "" })" method="post">
+                <button type="submit" class="nav-link btn btn-link text-dark">Click here to Logout</button>
+            </form>
+        }
+        else
+        {
+            <p style="margin-left: 100px">You have successfully logged out of the application.</p>
+        }
+    }
+</header>

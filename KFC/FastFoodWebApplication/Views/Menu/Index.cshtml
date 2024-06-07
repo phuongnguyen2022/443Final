@@ -1,0 +1,511 @@
+﻿@using System.Globalization;
+@await Html.PartialAsync("_HeadPartial")
+@using X.PagedList.Mvc
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model PaginatedList<FastFoodWebApplication.Models.Dish>
+@{
+
+    // Retrieve the Dishes from ViewData
+    var dishes = ViewData["Dishes"] as IPagedList<Dish>;
+    List<DishType> types = ViewData["DishType"] as List<DishType>;
+    List<Voucher> vouchers = ViewData["Code"] as List<Voucher>;
+    int? active = ViewData["active"] as int?;
+    var dishSizes = ViewBag.DishSizes as IEnumerable<DishSize>;
+    var sizes = new[] { new { Value = "S", Text = "S" },
+    new { Value = "M", Text = "M" }, new { Value = "L", Text = "L" } };
+
+}
+@* @foreach(var item in vouchers)
+{
+    <h1>@item.Name</h1>
+    <h1>@item.Code</h1>
+    <input type="hidden" value="@item.ID">
+
+} *@
+
+<section class="food_section ">
+    <div class="container">
+        <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4 Card">
+                <div class="CardInner">
+                    <div class="container">
+                        <form method="get" action="@Url.Action("Index", "Menu")">
+                            <div class="row">
+                                <div class="col-2 Icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#657789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+                                </div>
+                                <div class="col-9    InputContainer">
+                                    <input type="text" name="searchString" value="@ViewData["searchString"]" class="btn btn-default" placeholder="It just can't be pizza..." />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-dropdown ">
+            <div class="row">
+                <div class="col-10"></div>
+                <div class="col-2 dropdown-container text-right">
+                    <div class="dropdown-trigger">
+                        <a class="button" style="display: flex; align-items: center; padding: 5px; margin: 5px">
+                            <span style="font-size: 18px;padding: 5px; margin: 5px">Sort</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">< - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M3.9 22.9C10.5 8.9 24.5 0 40 0H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L396.4 195.6C316.2 212.1 256 283 256 368c0 27.4 6.3 53.4 17.5 76.5c-1.6-.8-3.2-1.8-4.7-2.9l-64-48c-8.1-6-12.8-15.5-12.8-25.6V288.9L9 65.3C-.7 53.4-2.8 36.8 3.9 22.9zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm120.8-32.6c.6-.9 1.8-2.1 4.2-3.4c5.1-2.7 12.5-4.1 18.7-4c8.2 .1 17.1 1.8 26.4 4.1c8.6 2.1 17.3-3.1 19.4-11.7s-3.1-17.3-11.7-19.4c-5.6-1.4-11.6-2.7-17.9-3.7V288c0-8.8-7.2-16-16-16s-16 7.2-16 16v9.5c-6.1 1.2-12.3 3.2-18 6.3c-11.8 6.3-23 18.4-21.8 37.2c1 16 11.7 25.3 21.6 30.7c8.8 4.7 19.7 7.8 28.6 10.3l1.8 .5c10.3 2.9 17.9 5.2 23.2 8.3c4.5 2.7 4.7 4.2 4.7 5.6c.1 2.4-.5 3.7-1 4.5c-.6 1-1.8 2.2-4 3.3c-4.7 2.5-11.8 3.8-18.5 3.6c-9.5-.3-18.5-3.1-29.9-6.8c-1.9-.6-3.8-1.2-5.8-1.8c-8.4-2.6-17.4 2.1-20 10.5s2.1 17.4 10.5 20c1.6 .5 3.3 1 5 1.6l0 0 0 0c7 2.3 15.1 4.8 23.7 6.6v11.4c0 8.8 7.2 16 16 16s16-7.2 16-16V438.7c6.2-1.1 12.5-3.1 18.3-6.2c12.1-6.5 22.3-18.7 21.7-36.9c-.5-16.2-10.3-26.3-20.5-32.3c-9.4-5.6-21.2-8.9-30.5-11.5l-.2 0c-10.4-2.9-18.3-5.2-23.9-8.2c-4.8-2.6-4.8-4-4.8-4.5l0-.1c-.1-1.9 .3-2.9 .8-3.6z" /></svg>
+                        </a>
+                    </div>
+                    <div class="dropdown-content">
+
+                        <a href="@Url.Action("Index", new { sortOrder = ViewBag.PriceSortParam })" style="display: flex; align-items: center; padding: 5px; margin: 5px">
+                            <span style="font-size: 18px;padding: 5px;">Price</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">< - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" /></svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading_container heading_center">
+            <h2>
+                Our Menu
+            </h2>
+        </div>
+
+        <ul class="filters_menu">
+            <a asp-action="Index" asp-controller="Menu" asp-route-DishTypeId="null">
+            <li class="@((active == null) ? "active" : "")" data-filter="*">
+                <span style="text-transform: uppercase; font-weight: bold;">All</span>
+            </li></a>
+            @foreach (var type in types)
+            {
+                <a asp-action="Index" asp-controller="Menu" asp-route-DishTypeId="@type.Id">
+                <li class="@((type.Id == active) ? "active" : "")" data-filter=".@type.Name">
+                    <span style="text-transform: uppercase; font-weight: bold;">@type.Name</span>
+                </li>
+                </a>
+            }
+        </ul>
+
+        <div class="filters-content">
+            <div class="row grid">
+                @if (dishes != null && dishes.Any())
+                {
+                    @foreach (var dish in dishes)
+                    {
+                        var image = "/images/f1.png";
+                        if (dish.DishImage != null)
+                        {
+                            string img = dish.DishImage.Replace("\\", "/");
+                            image = "/" + img;
+                        }
+                        var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", dish.DishPrice);
+                        <div class="col-sm-6 col-lg-4 all @dish.DishType.Name">
+                            <div class="box">
+                                <div style="height:419px ">
+                                    <a asp-action="Details" asp-route-id="@dish.DishId">
+                                        <div class="img-box">
+                                            @if (dish.DishStatus == 0)
+                                            {
+                                                <img src="/images/soldout.png" alt="Sold Out">
+
+                                            }
+                                            else
+                                            {
+                                                <img src="@image" alt="">
+                                            }
+                                        </div>
+                                    </a>
+                                    <div class="detail-box">
+                                        <h5>
+                                            @dish.Name
+                                        </h5>
+                                        <p class="description">
+                                            @dish.Description
+                                            @* <a asp-controller="" class="read-more" onclick="toggleDescription(this)">Read more</a> *@
+                                        </p>
+                                        @{
+                                            var sizeM = dish.DishPrice * 0.4m;
+                                            var totalSizeM = string.Format(new CultureInfo("vi-VN"), "{0:C}", dish.DishPrice + sizeM);
+                                            var sizeL = dish.DishPrice * 0.8m;
+                                            var totalSizeL = string.Format(new CultureInfo("vi-VN"), "{0:C}", dish.DishPrice + sizeL);
+
+                                        }
+                                        <form method="post" asp-controller="Carts" asp-action="Create">
+                                            <input type="hidden" name="DishID" value="@dish.DishId" />
+                                            <a for="size" style="color: white">Choose a size:</a>
+                                            <select name="size" id="size" onchange="changeDishSize('@dish.DishId', this)">
+                                                <option value="S">S - @price</option>
+                                                <option value="M">M - @totalSizeM</option>
+                                                <option value="L">L - @totalSizeL</option>
+
+                                            </select>
+                                            <input type="hidden" id="basePrice_@dish.DishId" value="@price" />
+
+                                            <div class="options">
+
+                                                <h6 id="price_@dish.DishId">
+                                                    @price
+                                                </h6>
+                                                @if (dish.DishStatus == 0)
+                                                {
+                                                    <button id="soldOutLink" style="border:none; background:none" class="cart-button">
+                                                        <img src="/images/add-to-cart.png" alt="cart" style="width: 50px; height: 50px;">
+                                                    </button>
+                                                }
+                                                else
+                                                {
+                                                    <button type="submit" style="border:none; background:none" class="cart-button">
+                                                        <img src="/images/add-to-cart.png" alt="cart" style="width: 50px; height: 50px;">
+                                                    </button>
+                                                }
+
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    }
+                }
+                else
+                {
+                    <p>No dishes available.</p>
+                }
+            </div>
+
+            <div class="pager-container">
+                @if (ViewData["Dishes"] is IPagedList<Dish>
+                pagedList)
+                {
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination justify-content-center">
+                            @if (pagedList.HasPreviousPage)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Index", new { page = pagedList.PageNumber - 1, DishTypeId = ViewData["active"], searchString = ViewData["searchString"], sortOrder = ViewBag.PriceSortParam })" aria-label="Previous">
+                                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">< - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" /></svg></span>
+                                    </a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= pagedList.PageCount; i++)
+                            {
+                                <li class="page-item @(i == pagedList.PageNumber ? "active" : "")">
+                                    <a class="page-link" href="@Url.Action("Index", new { page = i, DishTypeId = ViewData["active"], searchString = ViewData["searchString"], sortOrder = ViewBag.PriceSortParam })">
+                                        @i
+                                    </a>
+                                </li>
+                            }
+
+                            @if (pagedList.HasNextPage)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Index", new { page = pagedList.PageNumber + 1, DishTypeId = ViewData["active"], searchString = ViewData["searchString"], sortOrder = ViewBag.PriceSortParam })" aria-label="Next">
+                                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">< - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg></span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .pager-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adjust as needed */
+    }
+
+    .btn-secondary {
+        color: white;
+        background-color: black;
+        border-color: black;
+        margin-top: -2px;
+    }
+
+    .cart-button {
+        position: absolute;
+        bottom: 0; /* Adjust as needed */
+        right: 0; /* Adjust as needed */
+    }
+
+    .container-dropdown {
+        position: absolute;
+        top: 200px; /* Adjust the top position as needed */
+        right: 100px;
+        text-align: right;
+    }
+
+    .dropdown-container {
+        position: relative;
+        margin-right: 1em;
+        top: 100%;
+        right: auto;
+        display: inline-block;
+    }
+
+    .dropdown-trigger {
+        cursor: pointer;
+        display: inline-block;
+        display: flex; /* Use flex to align icon and text */
+        align-items: center; /* Center items vertically */
+    }
+
+    .dropdown-content {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        z-index: 1;
+    }
+
+    .dropdown-container:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown-content li {
+        padding: 10px;
+        text-align: right;
+    }
+
+    .dropdown-content a {
+        text-decoration: none;
+        color: #333;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f5f5f5;
+        }
+
+</style>
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<!-- bootstrap js -->
+<script src="/js/bootstrap.js"></script>
+<!-- owl slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script>
+<!-- isotope js -->
+<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+<!-- nice select -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+<!-- custom js -->
+<script src="/js/custom.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+</script>
+<!-- End Google Map -->
+<script>
+    function toggleDescription(link) {
+        var description = $(link).prev(".description");
+
+        if (description.hasClass("collapsed")) {
+            description.removeClass("collapsed");
+            link.innerText = "Read less";
+        } else {
+            description.addClass("collapsed");
+            link.innerText = "Read more";
+        }
+    }
+    //     var newSize = $(ele).val();
+    // }
+    function changeDishSize(productId, ele) {
+        var newSize = $(ele).val();
+        var basePrice = parseFloat($('#basePrice_' + productId).val()); // Get the base price
+
+        var updatedPrice = calculateUpdatedPrice(newSize, basePrice);
+
+
+        var priceElement = $('#price_' + productId);
+        priceElement.html(updatedPrice + ".000 đ");
+
+        // Set the value of the hidden input field temporarily
+        $('#priceInput_' + productId).val(updatedPrice);
+    }
+
+    // Calculate the updated price based on the size
+    function calculateUpdatedPrice(size, basePrice) {
+        var sizePrice = 0;
+
+        if (size === 'M') {
+            sizePrice = basePrice * 0.4;
+        } else if (size === 'L') {
+            sizePrice = basePrice * 0.8;
+        }
+
+        return basePrice + sizePrice;
+    }
+    $('form').submit(function () {
+        console.log('Form submitted!');
+        // Add more console.log statements to display values
+    });
+
+    var soldOutLink = document.getElementById("soldOutLink");
+
+    // Add a click event listener
+    soldOutLink.addEventListener("click", function (event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Perform any actions you want when the link is clicked
+        alert("This dish is sold out!");
+        // You can also perform additional actions here, such as updating the UI
+        // to visually indicate that the dish is sold out.
+    });
+
+</script>
+<style>
+    .description {
+        position: relative;
+        overflow: hidden;
+        max-height: 3.6em; /* (2 lines * line-height) + padding */
+        line-height: 1.8em; /* Set line height based on your design */
+    }
+
+        .description.collapsed {
+            max-height: 3.6em; /* Keep the same max-height when collapsed */
+        }
+
+    .read-more {
+        color: #007bff;
+        cursor: pointer;
+        display: block;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        /* color: #acbdce; */
+    }
+
+    :root {
+        --border-radius: 10px;
+    }
+
+    .Card {
+        padding: 1px;
+        border-radius: var(--border-radius);
+        background: linear-gradient(-67deg, rgba(#c8d8e7, .7), rgba(255,255,255,.8));
+        overflow: hidden;
+        box-shadow: -2px -2px 6px rgba(#fff, .6), 2px 2px 12px #c8d8e7;
+        width: 380px;
+    }
+
+    .CardInner {
+        background-color: #e2e9f4;
+        border-radius: var(--border-radius);
+    }
+
+
+
+    .Icon {
+        min-width: 46px;
+        min-height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: var(--border-radius);
+        margin-right: 12px;
+        box-shadow: -2px -2px 6px rgba(#fff, .6), 2px 2px 12px #c8d8e7;
+        svg
+
+    {
+        transform: translate(-1px, -1px);
+    }
+
+    }
+
+    label {
+        font-family: "Hind", sans-serif;
+        /*  display: block; */
+        /*   color: #3c4b66; */
+        /*         margin-bottom: 12px; */
+        background: linear-gradient(45deg, rgba(#6b7b8f, 1), #3c4b66);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .InputContainer {
+        width: 100%;
+    }
+
+    input {
+        background-color: #e3edf7;
+        padding: 16px 32px;
+        border: none;
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600;
+        color: #a9b8c9;
+        -webkit-appearance: none;
+        transition: all 240ms ease-out;
+        width: 100%;
+        &::placeholder
+
+    {
+        color: #6d7f8f;
+    }
+
+    &:focus {
+        outline: none;
+        color: #6d7f8f;
+        background-color: lighten(#e3edf7, 3%);
+    }
+
+    }
+
+    ;
+
+    .InputContainer {
+        --top-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
+        --bottom-shadow: inset -2px -2px 4px rgba(255,255,255, .7);
+        position: relative;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        &:before, &:after
+
+    {
+        left: 0;
+        top: 0;
+        display: block;
+        content: "";
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    &:before {
+        box-shadow: var(--bottom-shadow);
+    }
+
+    &:after {
+        box-shadow: var(--top-shadow);
+    }
+
+</style>
+

@@ -1,0 +1,208 @@
+﻿ @model FastFoodWebApplication.Models.Dish
+
+@{
+    ViewData["Title"] = "Create";
+    var defaultImg = "/images/f1.png";
+}
+@await Html.PartialAsync("_HeadPartial")
+
+
+
+<style>
+    input[type=file] {
+        display: none
+    }
+
+    #img {
+        cursor: pointer;
+        width: 120px;
+        height: 120px;
+        border: 1px solid gray;
+        min-width: 100px
+    }
+    .control-label{
+        margin-top: 10px;
+    }
+</style>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        var loadFile = function (event) {
+            var img = document.getElementById('img');
+            img.src = URL.createObjectURL(event.target.files[0]);
+            img.onload = function () {
+                URL.revokeObjectURL(img.src)
+            }
+        };
+
+        $("#img").click(function () {
+            $("input[type=file]").click();
+        })
+    </script>
+}
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        </a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
+                            </li>
+                            <li>
+                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Report Sale</span>  </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        </a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-blue">Dishes</span>  </a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Orders</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Vouchers</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="col py-3">
+            <div class="container-fluid px-1 py-5 mx-auto" style="margin-top:-80px">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                        <div class="card">
+                            <h5 class="text-center mb-4">ADD NEW DISH</h5>
+                            <form class="form-card" asp-action="Create" enctype="multipart/form-data" method="post">
+                                <div class="row justify-content-between text-left">
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" asp-for="Name" placeholder="Enter your name" onblur="validate(1)"> </div>
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Price<span class="text-danger"> *</span></label> <input type="text" id="lname" asp-for="DishPrice" placeholder="Enter price" onblur="validate(2)"> </div>
+                                </div>
+                                <div class="row justify-content-between text-left">
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish type<span class="text-danger"> *</span></label>   <select style=" padding:9px 15px;margin: 5px 0px;" asp-for="DishTypeId" id="lname" class="form-control" asp-items="ViewBag.DishTypeId"></select> </div>
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Status<span class="text-danger"> *</span></label> <input type="text" id="mob" asp-for="DishStatus" placeholder="" onblur="validate(4)" value="1" readonly> </div>
+                                </div>
+                                <div class="row justify-content-between text-left">
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Description<span class="text-danger"> *</span></label> <textarea rows="4" type="text" id="job" asp-for="Description" placeholder="" onblur="validate(5)"></textarea></div>
+                                    <div class="form-group col-sm-6 flex-column d-flex">
+                                        <label asp-for="DishImage" class="form-control-label px-3"></label>
+                                        <input asp-for="DishImage" type="file" accept="image/*" onchange="loadFile(event)" class="form-control" name="image" />
+                                        <img id="img" src="@(Model?.DishImage??defaultImg)" />
+                                    </div>
+                                </div>
+
+
+                                <div class="row justify-content-end">
+                                    <div class="form-group col-sm-3 ">
+                                    </div>
+                                    <div class="form-group col-sm-3" style="margin-left:auto">
+                                        <input type="submit" value="ADD NEW DISH" class="btn btn-primary" />
+                                    </div>
+                                    @* <div class="form-group col-sm-3 ">
+                                    </div> *@
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+ 
+
+    .card {
+        padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+    }
+
+    .blue-text {
+        color: #00BCD4
+    }
+
+    .form-control-label {
+        margin-bottom: 0
+    }
+    h5{
+        font-weight: 800;
+    }
+
+    input, textarea, button {
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300
+    }
+
+        input:focus, textarea:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            border: 1px solid #00BCD4;
+            outline-width: 0;
+            font-weight: 400
+        }
+
+    .btn-block {
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer
+    }
+
+        .btn-block:hover {
+            color: #fff !important
+        }
+
+    button:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0
+    }
+
+    .btn-primary{
+        background-color:black;
+    }
+
+    .form-control-label {
+        font-weight:600;
+        margin-right:auto;
+    }
+</style>

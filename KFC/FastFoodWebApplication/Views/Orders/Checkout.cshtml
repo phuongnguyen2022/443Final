@@ -1,0 +1,470 @@
+﻿@using System.Globalization;
+@model IEnumerable<FastFoodWebApplication.Models.Cart>
+@{
+    List<UserVoucher> vouchers = ViewData["vouchers"] as List<UserVoucher>;
+}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="">
+    <title> Feane </title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/responsive.css" rel="stylesheet" />
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
+
+</head>
+<div class='container checkout'>
+    <div class='window'>
+        <div class='order-info'>
+            <div class='order-info-content' style='max-height: 550px;'>
+                <h2>Order Summary</h2>
+                <div class='order-info-content' style='max-height: 350px; overflow-y: auto;'>
+                    @foreach (var item in Model)
+                    {
+                        var image = "/images/f1.png";
+                        if (item.Dish.DishImage != null)
+                        {
+                            string img = item.Dish.DishImage.Replace("\\", "/");
+                            image = "/" + img;
+                        }
+                        //format the price to vietnames Dong
+                        var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", item.Price);
+
+                        <div class='line'></div>
+                        <table class='order-table'>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src='@image' class='full-width'></img>
+                                    </td>
+                                    <td>
+                                        <span class='thin'>@item.Dish.Name</span>
+                                        <br> <span class='thin small'>Size: @item.size<br></span>
+                                        <span class='thin small'>Quantity:@item.Quantity<br></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class='price'>@price</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    }
+
+                </div>
+                <div class='line' style="margin-top:5px">
+                    @{
+                        var subPrice = string.Format(new CultureInfo("vi-VN"), "{0:C}", @ViewBag.subTotal);
+
+                        var discount = string.Format(new CultureInfo("vi-VN"), "{0:C}", @ViewBag.membership);
+
+                        var sub = string.Format(new CultureInfo("vi-VN"), "{0:C}", @ViewBag.discount);
+
+
+                    }
+                </div>
+                <div class='total' id="total">
+                    <span style='float:left;'>
+                        <div class='thin dense'>Sub total </div>
+                        <div class='thin dense'>Membership</div>
+                        <div class='thin dense'>Voucher </div>
+                        <div class='thin dense'>Delivery fee</div>
+                        <div class='thin dense'>TOTAL</div>
+
+                    </span>
+                    <span style='float:right; text-align:right;'>
+                        <div class='thin dense'>@subPrice</div>
+                        <div class='thin dense' id="membership">-@discount</div>
+                        <div class='thin dense' id='selectedVoucher'>None</div>
+                        <div class='thin dense'>0</div>
+                       
+                        <div class='thin dense' id="subTotal">@subPrice</div>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='credit-info'>
+            <div class='credit-info-content'>
+                <form method="post" asp-action="PlaceOrder" asp-controller="Orders">
+                    <table class='half-input-table'>
+
+                        Name
+                        <input class='input-field' name="name"></input>
+                        Address
+                        <input class='input-field' name="address"></input>
+                        <table class='half-input-table'>
+                            <tr>
+                                Phone number
+                                <input class='input-field' name="phone" type="number"></input>
+                            </tr>
+                        </table>
+                        Vouchers
+                        <select class="input-field" name="voucherCode" id="voucherCode">
+                            <option value="0-0" class="font">None</option>
+                            @foreach (var i in vouchers)
+                            {
+                                <option class="font" value="@i.Voucher.Amount-@i.Voucher.ID">@i.Voucher.Code - @i.Voucher.Amount%</option>
+                            }
+                        </select>
+                        <input type="hidden" name="discountMember" value="@ViewBag.memberShip"></input>
+                       
+                        <button class='pay-btn'>Checkout</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts{
+    <script>
+        function changePrice() {
+            var selectedVoucherCode = $("select[name='voucherCode']").val();
+            console.log(selectedVoucherCode);
+            var parts = selectedVoucherCode.split('-');
+            var part1 = parts[0];
+            console.log(part1);
+            var voucherAmount = parseFloat(part1);
+            var discount = parseFloat('@ViewBag.membership');
+            console.log(discount);
+            var initialTotalPrice = parseFloat('@ViewBag.subTotal');
+            console.log(initialTotalPrice);
+            var discountedPrice = initialTotalPrice - (initialTotalPrice * voucherAmount / 100);
+            console.log(discountedPrice);
+            var formatDiscountedPrice = discountedPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+            var totalVoucherDiscount = initialTotalPrice - discountedPrice;
+            console.log(totalVoucherDiscount);
+            $("#subTotal").html(formatDiscountedPrice);
+            if (voucherAmount != 0) {
+                var formattedTotalVoucherDiscount = totalVoucherDiscount.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+                $("#selectedVoucher").text("-" + formattedTotalVoucherDiscount);
+            } else {
+                $("#selectedVoucher").text("0");
+            }
+        }
+
+        $(document).on('change', "select[name='voucherCode']", function () {
+            // Call the changePrice function when the dropdown value changes
+            changePrice();
+        });
+
+        // Call the changePrice function initially to set the initial total price
+        $(document).ready(function () {
+            changePrice();
+        });
+    </script>
+}
+
+<style>
+    h2 {
+        margin-bottom: 0px;
+        margin-top: 25px;
+        text-align: center;
+        font-weight: 200;
+        font-size: 19px;
+        font-size: 1.2rem;
+    }
+
+    .checkout {
+        height: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .dropdown-select.visible {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        ul li {
+            list-style: none;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+
+            ul li:hover {
+                background: rgba(255,255,255,0.1);
+            }
+
+    .font {
+        color: black;
+        font-size: 12px;
+    }
+
+    .dropdown-select {
+        position: absolute;
+        background: #77aaee;
+        text-align: left;
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 90%;
+        left: 2px;
+        line-height: 2em;
+        margin-top: 2px;
+        box-sizing: border-box;
+    }
+
+    .thin {
+        font-weight: 400;
+    }
+
+    .small {
+        font-size: 12px;
+        font-size: .8rem;
+    }
+
+    .half-input-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .half-input-table td:first-of-type {
+            border-right: 10px solid #000000;
+            width: 50%;
+        }
+
+    .window {
+        height: 540px;
+        width: 800px;
+        background: #fff;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        z-index: 10;
+    }
+
+    .order-info {
+        height: 100%;
+        width: 50%;
+        padding-left: 25px;
+        padding-right: 25px;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price {
+        bottom: 0px;
+        position: absolute;
+        right: 0px;
+        color: red;
+    }
+
+    .order-table td:first-of-type {
+        width: 25%;
+    }
+
+    .order-table {
+        position: relative;
+    }
+
+    .line {
+        height: 1px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ddd;
+    }
+
+    .order-table td:last-of-type {
+        vertical-align: top;
+        padding-left: 25px;
+    }
+
+    .order-info-content {
+        table-layout: fixed;
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+    .pay-btn {
+        margin-top: 100px;
+        margin-left: 30px;
+        border: none;
+        background: #fff;
+        line-height: 2em;
+        border-radius: 10px;
+        font-size: 19px;
+        font-size: 1.2rem;
+        color: #000;
+        cursor: pointer;
+        bottom: 25px;
+        width: calc(100% - 50px);
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+        .pay-btn:hover {
+            background: #22a877;
+            color: #eee;
+            -webkit-transition: all .2s ease;
+            transition: all .2s ease;
+        }
+
+    .total {
+        margin-top: 25px;
+        font-size: 20px;
+        font-size: 1.3rem;
+        position: absolute;
+        bottom: 30px;
+        right: 27px;
+        left: 35px;
+    }
+
+    .dense {
+        line-height: 1.2em;
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .input-field {
+        background: rgba(255,255,255,0.1);
+        margin-bottom: 10px;
+        margin-top: 3px;
+        line-height: 1.5em;
+        font-size: 20px;
+        font-size: 1.3rem;
+        border: none;
+        padding: 5px 10px 5px 10px;
+        color: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .credit-info {
+        background: #000000;
+        height: 100%;
+        width: 50%;
+        color: #eee;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 14px;
+        font-size: .9rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        box-sizing: border-box;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        position: relative;
+    }
+
+    .dropdown-btn {
+        background: rgba(255,255,255,0.1);
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 1.5em;
+        cursor: pointer;
+        position: relative;
+        -webkit-transition: background .2s ease;
+        transition: background .2s ease;
+    }
+
+        .dropdown-btn:after {
+            content: '\25BE';
+            right: 8px;
+            position: absolute;
+        }
+
+        .dropdown-btn:hover {
+            background: rgba(255,255,255,0.2);
+            -webkit-transition: background .2s ease;
+            transition: background .2s ease;
+        }
+
+    .dropdown-select {
+        display: none;
+    }
+
+    .credit-card-image {
+        display: block;
+        max-height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    .credit-info-content {
+        margin-top: 25px;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+
+    .order-info-content {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+        /* Hide scrollbar for Chrome, Safari, and Edge */
+        .order-info-content::-webkit-scrollbar {
+            display: none;
+        }
+
+    .order-info-content {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+</style>
+
+

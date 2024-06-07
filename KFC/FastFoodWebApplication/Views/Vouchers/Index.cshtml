@@ -1,0 +1,256 @@
+﻿@model IEnumerable<FastFoodWebApplication.Models.Voucher>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        </a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
+                            </li>
+                            <li>
+                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Report Sale</span>  </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        </a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Dishes</span>  </a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Orders</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-blue">Vouchers</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="col py-3">
+            <div class="container">
+                <ul class="responsive-table1">
+                    <a asp-action="Create" asp-controller="Vouchers">
+                    <li class="table-header">
+                        <div class="col col-12 th">ADD NEW VOUCHER</div>
+                    </li></a>
+                </ul>
+            </div>
+            
+            <div class="container">
+                <ul class="responsive-table">
+                    <li class="table-header">
+
+
+                        <div class="col col-2 th">Code</div>
+                        <div class="col col-2 th">Name</div>
+                        <div class="col col-3 th">Description</div>
+                        <div class="col col-1 th">Amount</div>
+                        <div class="col col-1 th">Quantity</div>
+                        <div class="col col-1 th"></div>
+                        <div class="col col-1 th"></div>
+                        <div class="col col-1 th"></div>
+
+
+
+
+                    </li>
+                    @foreach (var item in Model)
+                    {
+
+                        <li class="table-row">
+                            <div class="col col-2" data-label="Job Id">@item.Code</div>
+                            <div class="col col-2" data-label="Customer Name">@item.Name</div>
+                            <div class="col col-3">@item.Description</div>
+                            <div class="col col-1">@item.Amount</div>
+                            <div class="col col-1">@item.Quantity</div>
+
+                            <div class="col col-1"><a asp-action="Edit" asp-route-id="@item.ID"><img src="/images/editing.png"></img></a>  </div>
+                            <div class="col col-1"><a asp-action="Details" asp-route-id="@item.ID"> <img src="/images/detail.png"></img></a> </div>
+                            <div class="col col-1"><a asp-action="Delete" asp-route-id="@item.ID"><img src="~/images/trash.png"> </img></a></div>
+
+
+
+
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /*  body {
+                      font-family: 'lato', sans-serif;
+                    } */
+    .container {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .h
+
+    a#button4:hover {
+        border-color: rgba(1,1,1,1);
+    }
+
+    .nav-pills .nav-link.active1,
+    .nav-pills .show > .nav-link {
+        color: yellow;
+    }
+
+    a#button4 {
+        display: inline-block;
+        padding: 0.3em 1.2em;
+        margin: 0 0.1em 0.1em 0;
+        border: 0.16em solid rgba(255,255,255,0);
+        border-radius: 2em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        color: #000;
+        text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    .th {
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: 20px 0;
+        text-align: center;
+
+
+    {
+        font-size: 0.5em;
+    }
+
+    #image {
+        width: 60px;
+    }
+
+    }
+
+    .responsive-table {
+        li
+
+    {
+        border-radius: 3px;
+        padding: 25px 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .table-header {
+        background-color: #95A5A6;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .table-row {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    }
+
+    .col-1 {
+        flex-basis: 10%;
+    }
+
+    .col-2 {
+        flex-basis: 40%;
+    }
+
+    .col-3 {
+        flex-basis: 25%;
+    }
+
+    .col-4 {
+        flex-basis: 25%;
+    }
+
+    .justi {
+        padding: 10px;
+    }
+
+    a.button4 {
+        display: inline-block;
+        padding: 0.3em 1.2em;
+        margin: 0 0.1em 0.1em 0;
+        border: 0.16em solid rgba(255,255,255,0);
+        border-radius: 2em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        color: #000;
+        text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+        a.button4:hover {
+            border-color: rgba(1,1,1,1);
+        }
+
+    }
+
+    .responsive-table1 {
+        li
+
+    {
+        border-radius: 3px;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .table-header {
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    }
+</style>
+
+@await Html.PartialAsync("_HeadPartial")

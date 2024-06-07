@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    @using Microsoft.AspNetCore.Identity
+    @using FastFoodWebApplication.Models
+    @using Microsoft.EntityFrameworkCore;
+    @inject SignInManager<AppUser> SignInManager
+
+    @inject UserManager<AppUser> UserManager
+
+    @inject FastFoodWebApplication.Data.FastFoodWebApplicationContext DBContext
+
+    
+}
+<div style="position: relative;">
+    <img src="images/hero-bg.jpg" style="width: 100%; height: 600px;" />
+    <a href="#" id="voucherLink" data-bs-toggle="modal" data-bs-target="#voucherModal" style="position: absolute; top: 20px; left: 20px; color: white; font-size: 24px; text-decoration: none; animation: giftAnimation 2s infinite;">
+        <img src="/images/gift.png" alt="Voucher" style="width: 100px; height: 100px;">
+    </a>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="voucherModal" tabindex="-1" aria-labelledby="voucherModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="voucherModalLabel">Get List Voucher</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="voucherListContainer" style="background-color: #dc143c">
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the link, modal, and voucher list container elements
+        var voucherLink = document.getElementById('voucherLink');
+        var voucherModal = new bootstrap.Modal(document.getElementById('voucherModal'));
+        var voucherListContainer = document.getElementById('voucherListContainer');
+
+        voucherLink.addEventListener('click', function (e) {          
+            e.preventDefault();           
+            fetch('@Url.Action("ListVouchers", "Vouchers")')  
+                .then(response => response.text())
+                .then(data => {                    
+                    voucherListContainer.innerHTML = data;                   
+                    voucherModal.show();
+                });
+        });
+    });
+</script>

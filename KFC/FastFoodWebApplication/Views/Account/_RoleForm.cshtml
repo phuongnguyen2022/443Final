@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore;
+@model IdentityUserRole<int>
+@inject UserManager<AppUser> UserManager
+@inject SignInManager<AppUser> SignInManager
+@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext DBContext
+@{
+    var name = await DBContext.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
+}
+@await Html.PartialAsync("_HeadPartial")
+
+<div class="form-group">
+    <input asp-for="UserId" class="form-control" type="hidden" value="@ViewBag.UserId" />
+    <p>User: @ViewBag.UserName</p>
+    <div class="form-group">
+
+        <label class="control-label">Role: </label>
+        <select class="form-control" asp-items="ViewBag.Roles" asp-for="RoleId">
+            <option>
+                ---SELECT A ROLE---
+            </option>
+        </select>
+        <span asp-validation-for="RoleId" class="text-danger"></span>
+    </div>
+</div>
+
+
