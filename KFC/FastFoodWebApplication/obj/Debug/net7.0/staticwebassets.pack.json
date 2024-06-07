@@ -1,651 +1,651 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FastFoodWebApplication.bundle.scp.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FastFoodWebApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\FastFoodWebApplication.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\style.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.css.map",
       "PackagePath": "staticwebassets\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\css\\style.scss",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.scss",
       "PackagePath": "staticwebassets\\css\\style.scss"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0.jpg",
       "PackagePath": "staticwebassets\\images\\0.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0175e4ef-d562-4fa8-aeb5-599d8e58d261.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0175e4ef-d562-4fa8-aeb5-599d8e58d261.jpg",
       "PackagePath": "staticwebassets\\images\\0175e4ef-d562-4fa8-aeb5-599d8e58d261.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\02c1c0e7-7637-492a-801a-b3c07b5a2754.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\02c1c0e7-7637-492a-801a-b3c07b5a2754.jpg",
       "PackagePath": "staticwebassets\\images\\02c1c0e7-7637-492a-801a-b3c07b5a2754.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\08e5242e-136b-4189-8639-b07800d5db35.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\08e5242e-136b-4189-8639-b07800d5db35.jpg",
       "PackagePath": "staticwebassets\\images\\08e5242e-136b-4189-8639-b07800d5db35.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0b14076e-6d91-4ae6-b29d-517a002ba72b.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0b14076e-6d91-4ae6-b29d-517a002ba72b.jpg",
       "PackagePath": "staticwebassets\\images\\0b14076e-6d91-4ae6-b29d-517a002ba72b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0d804451-64d4-463b-9a56-5d8b12045939.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0d804451-64d4-463b-9a56-5d8b12045939.jpg",
       "PackagePath": "staticwebassets\\images\\0d804451-64d4-463b-9a56-5d8b12045939.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0e560d10-9910-47bc-8b25-b884f31366a4.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0e560d10-9910-47bc-8b25-b884f31366a4.jpg",
       "PackagePath": "staticwebassets\\images\\0e560d10-9910-47bc-8b25-b884f31366a4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0ea6cfae-6ad5-46d4-a834-977cfcfd14d8.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0ea6cfae-6ad5-46d4-a834-977cfcfd14d8.jpg",
       "PackagePath": "staticwebassets\\images\\0ea6cfae-6ad5-46d4-a834-977cfcfd14d8.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0edadffc-738b-4a3d-a5d2-00c672fb6a54.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0edadffc-738b-4a3d-a5d2-00c672fb6a54.jpg",
       "PackagePath": "staticwebassets\\images\\0edadffc-738b-4a3d-a5d2-00c672fb6a54.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\0ede683e-78a7-4647-b59c-f444b3c4bf92.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0ede683e-78a7-4647-b59c-f444b3c4bf92.jpg",
       "PackagePath": "staticwebassets\\images\\0ede683e-78a7-4647-b59c-f444b3c4bf92.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\10c2df49-a06a-49c9-a45e-bb96b97bbda0.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\10c2df49-a06a-49c9-a45e-bb96b97bbda0.jpg",
       "PackagePath": "staticwebassets\\images\\10c2df49-a06a-49c9-a45e-bb96b97bbda0.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\1b2446d3-8fec-4fc7-8a3a-27291307c03d.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\1b2446d3-8fec-4fc7-8a3a-27291307c03d.jpg",
       "PackagePath": "staticwebassets\\images\\1b2446d3-8fec-4fc7-8a3a-27291307c03d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\1c25914a-16ca-472a-b048-ac57ea44ae62.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\1c25914a-16ca-472a-b048-ac57ea44ae62.jpg",
       "PackagePath": "staticwebassets\\images\\1c25914a-16ca-472a-b048-ac57ea44ae62.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\2014629b-bf84-42c9-afba-9a72b0d362dc.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2014629b-bf84-42c9-afba-9a72b0d362dc.jpg",
       "PackagePath": "staticwebassets\\images\\2014629b-bf84-42c9-afba-9a72b0d362dc.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\2046536f-2f17-476d-90bd-25de2c495641.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2046536f-2f17-476d-90bd-25de2c495641.jpg",
       "PackagePath": "staticwebassets\\images\\2046536f-2f17-476d-90bd-25de2c495641.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\2a10f3e5-b58a-412a-93a6-0b8b4db101d2.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2a10f3e5-b58a-412a-93a6-0b8b4db101d2.jpg",
       "PackagePath": "staticwebassets\\images\\2a10f3e5-b58a-412a-93a6-0b8b4db101d2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\2ce89b4c-aa7a-4d52-be0d-6110571acea2.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2ce89b4c-aa7a-4d52-be0d-6110571acea2.jpg",
       "PackagePath": "staticwebassets\\images\\2ce89b4c-aa7a-4d52-be0d-6110571acea2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg",
       "PackagePath": "staticwebassets\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\4723b90b-1750-43ad-bd71-fd85ee453aa7.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4723b90b-1750-43ad-bd71-fd85ee453aa7.jpg",
       "PackagePath": "staticwebassets\\images\\4723b90b-1750-43ad-bd71-fd85ee453aa7.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\4874bdfb-a796-4e90-a22d-dbb35e9a1d45.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4874bdfb-a796-4e90-a22d-dbb35e9a1d45.jpg",
       "PackagePath": "staticwebassets\\images\\4874bdfb-a796-4e90-a22d-dbb35e9a1d45.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg",
       "PackagePath": "staticwebassets\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\4f17d0a9-8451-48c9-97fc-57be7a06143f.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4f17d0a9-8451-48c9-97fc-57be7a06143f.jpg",
       "PackagePath": "staticwebassets\\images\\4f17d0a9-8451-48c9-97fc-57be7a06143f.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\619626cb-6125-4f94-bff0-f4d1f5767571.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\619626cb-6125-4f94-bff0-f4d1f5767571.jpg",
       "PackagePath": "staticwebassets\\images\\619626cb-6125-4f94-bff0-f4d1f5767571.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\646a76a8-c9fe-4dcc-b178-f189055b23af.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\646a76a8-c9fe-4dcc-b178-f189055b23af.jpg",
       "PackagePath": "staticwebassets\\images\\646a76a8-c9fe-4dcc-b178-f189055b23af.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\68e48b2b-f5d6-417f-8591-185b0b032de4.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\68e48b2b-f5d6-417f-8591-185b0b032de4.jpg",
       "PackagePath": "staticwebassets\\images\\68e48b2b-f5d6-417f-8591-185b0b032de4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\6d0bbdfa-1c84-4469-9bd6-7c915ed6ab38.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\6d0bbdfa-1c84-4469-9bd6-7c915ed6ab38.jpg",
       "PackagePath": "staticwebassets\\images\\6d0bbdfa-1c84-4469-9bd6-7c915ed6ab38.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\70b2291b-d7f9-4edc-b281-d89c9d6e6766.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\70b2291b-d7f9-4edc-b281-d89c9d6e6766.jpg",
       "PackagePath": "staticwebassets\\images\\70b2291b-d7f9-4edc-b281-d89c9d6e6766.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\71abc5a4-cd03-471b-9582-1198784ea55d.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\71abc5a4-cd03-471b-9582-1198784ea55d.jpg",
       "PackagePath": "staticwebassets\\images\\71abc5a4-cd03-471b-9582-1198784ea55d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\84ba7501-dc55-4743-b4db-4dd10a5127ed.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\84ba7501-dc55-4743-b4db-4dd10a5127ed.jpg",
       "PackagePath": "staticwebassets\\images\\84ba7501-dc55-4743-b4db-4dd10a5127ed.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\88696e41-101b-4712-8ece-da28bc70fc61.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\88696e41-101b-4712-8ece-da28bc70fc61.jpg",
       "PackagePath": "staticwebassets\\images\\88696e41-101b-4712-8ece-da28bc70fc61.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\8b84f82c-b0d7-46f3-a5ca-060814ecab8b.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\8b84f82c-b0d7-46f3-a5ca-060814ecab8b.jpg",
       "PackagePath": "staticwebassets\\images\\8b84f82c-b0d7-46f3-a5ca-060814ecab8b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\8cb35e8a-481d-4b42-b458-b3f55394ff52.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\8cb35e8a-481d-4b42-b458-b3f55394ff52.jpg",
       "PackagePath": "staticwebassets\\images\\8cb35e8a-481d-4b42-b458-b3f55394ff52.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\92b0e4fd-631e-4cfc-9c7f-e24404ca566f.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\92b0e4fd-631e-4cfc-9c7f-e24404ca566f.jpg",
       "PackagePath": "staticwebassets\\images\\92b0e4fd-631e-4cfc-9c7f-e24404ca566f.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\9534f1c4-6edc-4982-9ef3-13443f6e0229.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9534f1c4-6edc-4982-9ef3-13443f6e0229.jpg",
       "PackagePath": "staticwebassets\\images\\9534f1c4-6edc-4982-9ef3-13443f6e0229.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\97e129c1-8209-49f9-a56e-d936a5ebf75c.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\97e129c1-8209-49f9-a56e-d936a5ebf75c.jpg",
       "PackagePath": "staticwebassets\\images\\97e129c1-8209-49f9-a56e-d936a5ebf75c.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\98a705e5-9e3e-49a9-88af-f8a07e179abd.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\98a705e5-9e3e-49a9-88af-f8a07e179abd.jpg",
       "PackagePath": "staticwebassets\\images\\98a705e5-9e3e-49a9-88af-f8a07e179abd.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\98e346a0-e0d8-41d2-ad22-850f85a5ea74.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\98e346a0-e0d8-41d2-ad22-850f85a5ea74.jpg",
       "PackagePath": "staticwebassets\\images\\98e346a0-e0d8-41d2-ad22-850f85a5ea74.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\9b7b5d55-319b-45bb-b020-81e5f2c2a736.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9b7b5d55-319b-45bb-b020-81e5f2c2a736.jpg",
       "PackagePath": "staticwebassets\\images\\9b7b5d55-319b-45bb-b020-81e5f2c2a736.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\9c4e86a3-9d60-40a2-9997-1039ed800dfa.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9c4e86a3-9d60-40a2-9997-1039ed800dfa.jpg",
       "PackagePath": "staticwebassets\\images\\9c4e86a3-9d60-40a2-9997-1039ed800dfa.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\9f6b559c-01bb-4832-8efe-a469a41d8188.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9f6b559c-01bb-4832-8efe-a469a41d8188.jpg",
       "PackagePath": "staticwebassets\\images\\9f6b559c-01bb-4832-8efe-a469a41d8188.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\Pizza_Rau_Cu_400x275.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\Pizza_Rau_Cu_400x275.jpg",
       "PackagePath": "staticwebassets\\images\\Pizza_Rau_Cu_400x275.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\a57c4f36-b569-4e7b-803a-281b64617c8c.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a57c4f36-b569-4e7b-803a-281b64617c8c.jpg",
       "PackagePath": "staticwebassets\\images\\a57c4f36-b569-4e7b-803a-281b64617c8c.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\a6f21b2c-456f-4fde-b569-e4dd73ce038e.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a6f21b2c-456f-4fde-b569-e4dd73ce038e.jpg",
       "PackagePath": "staticwebassets\\images\\a6f21b2c-456f-4fde-b569-e4dd73ce038e.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\a72bdaee-8ba8-47f6-9493-931794d5de41.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a72bdaee-8ba8-47f6-9493-931794d5de41.jpg",
       "PackagePath": "staticwebassets\\images\\a72bdaee-8ba8-47f6-9493-931794d5de41.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\about-img.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\about-img.png",
       "PackagePath": "staticwebassets\\images\\about-img.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ad13e0ab-861f-4948-ada7-5ab1b990f138.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ad13e0ab-861f-4948-ada7-5ab1b990f138.jpg",
       "PackagePath": "staticwebassets\\images\\ad13e0ab-861f-4948-ada7-5ab1b990f138.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\add-to-cart.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\add-to-cart.png",
       "PackagePath": "staticwebassets\\images\\add-to-cart.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\avt.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\avt.jpg",
       "PackagePath": "staticwebassets\\images\\avt.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\b31f5e86-ff33-4e7a-b79b-062870c3f32b.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\b31f5e86-ff33-4e7a-b79b-062870c3f32b.jpg",
       "PackagePath": "staticwebassets\\images\\b31f5e86-ff33-4e7a-b79b-062870c3f32b.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\b3ba62f3-16ee-4dd9-9c66-8fa08a24cbce.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\b3ba62f3-16ee-4dd9-9c66-8fa08a24cbce.jpg",
       "PackagePath": "staticwebassets\\images\\b3ba62f3-16ee-4dd9-9c66-8fa08a24cbce.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\b78c5362-f14e-40a4-bea7-1849bc56180e.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\b78c5362-f14e-40a4-bea7-1849bc56180e.jpg",
       "PackagePath": "staticwebassets\\images\\b78c5362-f14e-40a4-bea7-1849bc56180e.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\bad58a74-f29b-4b9f-89cd-ccb768d11ddc.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\bad58a74-f29b-4b9f-89cd-ccb768d11ddc.jpg",
       "PackagePath": "staticwebassets\\images\\bad58a74-f29b-4b9f-89cd-ccb768d11ddc.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\basket.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\basket.png",
       "PackagePath": "staticwebassets\\images\\basket.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\bd3d1337-0a21-4045-a04f-54fe48ea3ff4.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\bd3d1337-0a21-4045-a04f-54fe48ea3ff4.jpg",
       "PackagePath": "staticwebassets\\images\\bd3d1337-0a21-4045-a04f-54fe48ea3ff4.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\be9494ec-9fae-4482-a10c-dadf3870fff1.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\be9494ec-9fae-4482-a10c-dadf3870fff1.jpg",
       "PackagePath": "staticwebassets\\images\\be9494ec-9fae-4482-a10c-dadf3870fff1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ca324a30-9a18-4189-8fa1-259e2869385e.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ca324a30-9a18-4189-8fa1-259e2869385e.jpg",
       "PackagePath": "staticwebassets\\images\\ca324a30-9a18-4189-8fa1-259e2869385e.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\cab26b38-acaf-417e-b7ce-55df525582f2.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\cab26b38-acaf-417e-b7ce-55df525582f2.jpg",
       "PackagePath": "staticwebassets\\images\\cab26b38-acaf-417e-b7ce-55df525582f2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\caret-down.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\caret-down.png",
       "PackagePath": "staticwebassets\\images\\caret-down.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\cart.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\cart.png",
       "PackagePath": "staticwebassets\\images\\cart.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\client1.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\client1.jpg",
       "PackagePath": "staticwebassets\\images\\client1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\client2.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\client2.jpg",
       "PackagePath": "staticwebassets\\images\\client2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\d5973c96-090c-41b6-a919-a589c6a9c54d.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\d5973c96-090c-41b6-a919-a589c6a9c54d.jpg",
       "PackagePath": "staticwebassets\\images\\d5973c96-090c-41b6-a919-a589c6a9c54d.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\detail.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\detail.png",
       "PackagePath": "staticwebassets\\images\\detail.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\df3eacae-9a01-4c3e-a220-79a0dffd71d3.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\df3eacae-9a01-4c3e-a220-79a0dffd71d3.jpg",
       "PackagePath": "staticwebassets\\images\\df3eacae-9a01-4c3e-a220-79a0dffd71d3.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\diskette.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\diskette.png",
       "PackagePath": "staticwebassets\\images\\diskette.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\e1416a01-1f17-4eb8-9251-bd4e2bd7cf35.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\e1416a01-1f17-4eb8-9251-bd4e2bd7cf35.jpg",
       "PackagePath": "staticwebassets\\images\\e1416a01-1f17-4eb8-9251-bd4e2bd7cf35.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\e1b5fc1b-4ba8-4e3c-852a-d09e2a9bf099.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\e1b5fc1b-4ba8-4e3c-852a-d09e2a9bf099.jpg",
       "PackagePath": "staticwebassets\\images\\e1b5fc1b-4ba8-4e3c-852a-d09e2a9bf099.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ea054e85-c381-45a1-96cd-500dce04c592.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ea054e85-c381-45a1-96cd-500dce04c592.jpg",
       "PackagePath": "staticwebassets\\images\\ea054e85-c381-45a1-96cd-500dce04c592.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ea7f052b-f824-4220-b343-a7b78fb28bf6.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ea7f052b-f824-4220-b343-a7b78fb28bf6.jpg",
       "PackagePath": "staticwebassets\\images\\ea7f052b-f824-4220-b343-a7b78fb28bf6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ebdcd8cc-b327-4fd9-92cb-35c814cb73f5.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ebdcd8cc-b327-4fd9-92cb-35c814cb73f5.jpg",
       "PackagePath": "staticwebassets\\images\\ebdcd8cc-b327-4fd9-92cb-35c814cb73f5.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\edit-text.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\edit-text.png",
       "PackagePath": "staticwebassets\\images\\edit-text.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\editing.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\editing.png",
       "PackagePath": "staticwebassets\\images\\editing.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f1.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f1.png",
       "PackagePath": "staticwebassets\\images\\f1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f2.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f2.png",
       "PackagePath": "staticwebassets\\images\\f2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f3.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f3.png",
       "PackagePath": "staticwebassets\\images\\f3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f4.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f4.png",
       "PackagePath": "staticwebassets\\images\\f4.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f5.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f5.png",
       "PackagePath": "staticwebassets\\images\\f5.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f6.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f6.png",
       "PackagePath": "staticwebassets\\images\\f6.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f7.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f7.png",
       "PackagePath": "staticwebassets\\images\\f7.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f8.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f8.png",
       "PackagePath": "staticwebassets\\images\\f8.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f9.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f9.png",
       "PackagePath": "staticwebassets\\images\\f9.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f93e2701-e7de-4d69-9052-dd252e090241.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f93e2701-e7de-4d69-9052-dd252e090241.jpg",
       "PackagePath": "staticwebassets\\images\\f93e2701-e7de-4d69-9052-dd252e090241.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\f9f51272-b5c8-4036-a66a-e9dcbe1309b6.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f9f51272-b5c8-4036-a66a-e9dcbe1309b6.jpg",
       "PackagePath": "staticwebassets\\images\\f9f51272-b5c8-4036-a66a-e9dcbe1309b6.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\favicon.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\favicon.png",
       "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\ff4e8e99-3521-4ef2-b995-0d1112606b02.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\ff4e8e99-3521-4ef2-b995-0d1112606b02.jpg",
       "PackagePath": "staticwebassets\\images\\ff4e8e99-3521-4ef2-b995-0d1112606b02.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\gift.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\gift.png",
       "PackagePath": "staticwebassets\\images\\gift.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\hero-bg.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\o1.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\o1.jpg",
       "PackagePath": "staticwebassets\\images\\o1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\o2.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\o2.jpg",
       "PackagePath": "staticwebassets\\images\\o2.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\soldout.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\soldout.png",
       "PackagePath": "staticwebassets\\images\\soldout.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\trash.png",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\trash.png",
       "PackagePath": "staticwebassets\\images\\trash.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\images\\user1.jpg",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\user1.jpg",
       "PackagePath": "staticwebassets\\images\\user1.jpg"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\js\\custom.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\jquery-3.4.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Downloads\\FastFoodWebApplication-master\\FastFoodWebApplication-master\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

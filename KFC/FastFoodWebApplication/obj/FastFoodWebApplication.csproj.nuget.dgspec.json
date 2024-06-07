@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\FastFoodWebApplication.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\FastFoodWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\FastFoodWebApplication.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\FastFoodWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\FastFoodWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\FastFoodWebApplication.csproj",
         "projectName": "FastFoodWebApplication",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\FastFoodWebApplication.csproj",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\FastFoodWebApplication.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
