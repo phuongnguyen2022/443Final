@@ -1,14 +1,15 @@
 ﻿@model LoginInput
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Login";
 }
 @await Html.PartialAsync("_HeadPartial")
 
 
 <h1 style="margin-left: 100px">@ViewData["Title"]</h1>
-<div class="row" style="margin-left: 100px">
-    <div class="col-md-4">
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6" style="border=1px">
         <section>
             <form id="account" method="post">
                 <h2>Use a local account to log in.</h2>
@@ -47,4 +48,5 @@
             </form>
         </section>
     </div>
+    <div class="col-md-3"></div>
 </div>
