@@ -1,6 +1,6 @@
-﻿@using FastFoodWebApplication.Services;
+﻿@using KFCApplication.Services;
 @using System.Globalization;
-@model FastFoodWebApplication.Models.Dish
+@model KFCApplication.Models.Dish
 
 @await Html.PartialAsync("_HeadPartial")
 
@@ -91,12 +91,12 @@
                             {
                                
                                 <button id="soldOutLink1" type="submit" class="cart-button">
-                                    Mua Ngay
+                                    Check Out
                                 </button>
                             }else{
                                 
                                 <button type="submit" class="cart-button">
-                                    Mua Ngay
+                                    Check Out
                                 </button>
                             }                           
                         </div>

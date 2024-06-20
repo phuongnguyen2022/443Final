@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class VouchersController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
 
-        public VouchersController(FastFoodWebApplicationContext context)
+        public VouchersController(KFCApplicationContext context)
         {
             _context = context;
         }
@@ -174,7 +174,7 @@ namespace FastFoodWebApplication.Controllers
         {
             if (_context.Voucher == null)
             {
-                return Problem("Entity set 'FastFoodWebApplicationContext.Voucher'  is null.");
+                return Problem("Entity set 'KFCApplicationContext.Voucher'  is null.");
             }
             var voucher = await _context.Voucher.FindAsync(id);
             if (voucher != null)

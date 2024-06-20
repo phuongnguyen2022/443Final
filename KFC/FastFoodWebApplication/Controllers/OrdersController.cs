@@ -1,5 +1,5 @@
-﻿using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+﻿using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,13 +18,13 @@ using Newtonsoft.Json.Linq;
 using Humanizer;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class OrdersController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
 
-        public OrdersController(FastFoodWebApplicationContext context)
+        public OrdersController(KFCApplicationContext context)
         {
             _context = context;
         }

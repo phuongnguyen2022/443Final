@@ -1,5 +1,5 @@
-﻿using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+﻿using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,12 +11,12 @@ using System.Net;
 using System.Threading.Tasks;
 using X.PagedList;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class MenuController : Controller
     {
-        public readonly FastFoodWebApplicationContext _context;
-        public MenuController( FastFoodWebApplicationContext context)
+        public readonly KFCApplicationContext _context;
+        public MenuController( KFCApplicationContext context)
         {
 
             _context = context;

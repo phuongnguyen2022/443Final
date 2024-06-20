@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public class AppUser:IdentityUser<int>
     {

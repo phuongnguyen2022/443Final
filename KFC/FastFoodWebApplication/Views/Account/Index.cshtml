@@ -1,14 +1,13 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using FastFoodWebApplication.Models
+@using KFCApplication.Models
 @using Microsoft.EntityFrameworkCore
-@model FastFoodWebApplication.Models.Profile
-@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext Context
+@model KFCApplication.Models.Profile
+@inject KFCApplication.Data.KFCApplicationContext Context
 @{
     ViewData["Title"] = "Profile";
     var defaultAva = "images/avt.jpg";
     var user = await Context.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
     decimal userSpend = user.Profile.UserSpend;
-
 
     string memberShip = "Silver";
     if (userSpend >= 3000000)
@@ -23,8 +22,6 @@
     {
         memberShip = "Platinum";
     }
-
-    
 }
 @await Html.PartialAsync("_HeadPartial")
 
@@ -53,9 +50,12 @@
                 <label asp-for="Gender" class="control-label" style="font-weight: bold;"></label>
                 <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control"></select>
             </div>
+            @{
+                var today = DateTime.Now.ToString("yyyy-MM-dd");
+            }
             <div class="form-group">
                 <label asp-for="Dob" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="Dob" class="form-control" />
+                <input asp-for="Dob" class="form-control" value="@today" />
                 <span asp-validation-for="Dob" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -79,7 +79,7 @@
     </div>
     <div class="col-md-2">
         <div><a asp-action="Index" asp-controller="Orders">Order History </a></div>
-</div>
+    </div>
     <style>
         input[type=file] {
             display: none
@@ -106,10 +106,8 @@
                     URL.revokeObjectURL(output.src) // free memory
                 }
             };
-
             $("#output").click(function () {
                 $("input[type=file]").click();
             })
         </script>
     }
-

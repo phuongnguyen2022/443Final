@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Globalization;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class CartsController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
 
-        public CartsController(FastFoodWebApplicationContext context)
+        public CartsController(KFCApplicationContext context)
         {
             _context = context;
         }
@@ -203,7 +203,7 @@ namespace FastFoodWebApplication.Controllers
         {
             if (_context.Cart == null)
             {
-                return Problem("Entity set 'FastFoodWebApplicationContext.Cart'  is null.");
+                return Problem("Entity set 'KFCApplicationContext.Cart'  is null.");
             }
             var cart = await _context.Cart.FindAsync(id);
             if (cart != null)

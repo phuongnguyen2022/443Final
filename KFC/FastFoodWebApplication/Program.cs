@@ -1,24 +1,24 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using FastFoodWebApplication.Data;
+using KFCApplication.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using System;
 using Microsoft.AspNetCore.Identity;
-using FastFoodWebApplication.Models;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Options;
 using AspNetCore.Unobtrusive.Ajax;
-using FastFoodWebApplication;
+using KFCApplication;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<FastFoodWebApplicationContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("FastFoodWebApplicationContext") ?? throw new InvalidOperationException("Connection string 'FastFoodWebApplicationContext' not found.")));
+builder.Services.AddDbContext<KFCApplicationContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("KFCApplicationContext") ?? throw new InvalidOperationException("Connection string 'KFCApplicationContext' not found.")));
 
 builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole<int>>()
-    .AddEntityFrameworkStores<FastFoodWebApplicationContext>();
+    .AddEntityFrameworkStores<KFCApplicationContext>();
 builder.Services.AddUnobtrusiveAjax();
 builder.Services.ConfigureApplicationCookie(options =>
 {

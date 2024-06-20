@@ -1,5 +1,5 @@
 ﻿@using System.Globalization;
-@model IEnumerable<FastFoodWebApplication.Models.Cart>
+@model IEnumerable<KFCApplication.Models.Cart>
 @{
     List<UserVoucher> vouchers = ViewData["vouchers"] as List<UserVoucher>;
 }
@@ -70,7 +70,7 @@
                         var discount = string.Format(new CultureInfo("vi-VN"), "{0:C}", @ViewBag.membership);
 
                         var sub = string.Format(new CultureInfo("vi-VN"), "{0:C}", @ViewBag.discount);
-
+                        var finalPrice = subPrice - discount;
 
                     }
                 </div>
@@ -89,7 +89,7 @@
                         <div class='thin dense' id='selectedVoucher'>None</div>
                         <div class='thin dense'>0</div>
                        
-                        <div class='thin dense' id="subTotal">@subPrice</div>
+                        <div class='thin dense' id="subTotal">@finalPrice</div>
 
                     </span>
                 </div>

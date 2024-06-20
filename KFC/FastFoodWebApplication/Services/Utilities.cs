@@ -1,4 +1,4 @@
-﻿namespace FastFoodWebApplication.Services
+﻿namespace KFCApplication.Services
 {
     public static class Utilities
     {

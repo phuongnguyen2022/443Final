@@ -4,7 +4,7 @@ using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public enum Gender
     {

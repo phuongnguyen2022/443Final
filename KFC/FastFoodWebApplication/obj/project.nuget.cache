@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "chOpFXl/txG9ChZ51ZaiF9zvMDqK8cGr/AWqNrtGB6PNkJpTt0jY5FgLjF1zFlt1qUR/l0bsj/96x2XUqdVLyQ==",
+  "dgSpecHash": "rgIzCJ/pavDfNuVFa2QHKOfDwfNBTe9KDVPSA79FH0wpHpo6uNQX+v7DSjTESPHBddKi5/j3cHmILWhWsihEBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\FastFoodWebApplication.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\443Final\\KFC\\FastFoodWebApplication\\KFCApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\aspnetcore.unobtrusive.ajax\\2.0.0\\aspnetcore.unobtrusive.ajax.2.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
