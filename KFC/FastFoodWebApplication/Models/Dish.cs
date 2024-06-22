@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public class Dish
     {

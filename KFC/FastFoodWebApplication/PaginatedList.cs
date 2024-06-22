@@ -1,11 +1,11 @@
-﻿using FastFoodWebApplication.Models;
+﻿using KFCApplication.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FastFoodWebApplication
+namespace KFCApplication
 {
     public class PaginatedList<T> : List<T>
     {

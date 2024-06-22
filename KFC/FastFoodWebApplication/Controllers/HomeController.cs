@@ -1,9 +1,9 @@
-﻿using FastFoodWebApplication.Models;
+﻿using KFCApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,6 +1,6 @@
 ﻿@using Microsoft.EntityFrameworkCore;
-@using FastFoodWebApplication.Models;
-@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext _context
+@using KFCApplication.Models;
+@inject KFCApplication.Data.KFCApplicationContext _context
 @{
     List<DishType> dishTypes = await _context.DishType.ToListAsync();
 }

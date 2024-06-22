@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q/cCKlDRlpvp3DeHbvfiu2mIPbb8M+QZXdurb1gOwnc=",
+  "Hash": "iSC5ZqDZmSVObpkcZ4EhaHAzXnkJURg6CmrHmhMcyQI=",
   "Source": "FastFoodWebApplication",
   "BasePath": "_content/FastFoodWebApplication",
   "Mode": "Default",
@@ -1535,6 +1535,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg"
+    },
+    {
+      "Identity": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\3baa8b57-6271-4c63-a7b3-6083d921a535.jpg",
+      "SourceId": "FastFoodWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\",
+      "BasePath": "_content/FastFoodWebApplication",
+      "RelativePath": "images/3baa8b57-6271-4c63-a7b3-6083d921a535.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3baa8b57-6271-4c63-a7b3-6083d921a535.jpg"
     },
     {
       "Identity": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg",

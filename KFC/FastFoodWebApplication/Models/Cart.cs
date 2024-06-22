@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public class Cart
     {

@@ -1,7 +1,7 @@
 ﻿@await Html.PartialAsync("_HeadPartial")
 @using Microsoft.EntityFrameworkCore;
-@using FastFoodWebApplication.Models;
-@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext _context
+@using KFCApplication.Models;
+@inject KFCApplication.Data.KFCApplicationContext _context
 @{
     string userName = User.Identity.Name;
     var user = _context.Users.SingleOrDefault(u => u.UserName == userName);

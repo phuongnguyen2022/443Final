@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using FastFoodWebApplication.Models;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using System.Reflection.Emit;
 
-namespace FastFoodWebApplication.Data
+namespace KFCApplication.Data
 {
-    public class FastFoodWebApplicationContext : IdentityDbContext<AppUser, IdentityRole<int>, int>
+    public class KFCApplicationContext : IdentityDbContext<AppUser, IdentityRole<int>, int>
     {
-        public FastFoodWebApplicationContext(DbContextOptions<FastFoodWebApplicationContext> options)
+        public KFCApplicationContext(DbContextOptions<KFCApplicationContext> options)
             : base(options)
         {
         }
@@ -46,8 +45,8 @@ namespace FastFoodWebApplication.Data
             builder.Entity<UserVoucher>().ToTable("UserVoucher");
 
         }
-        public DbSet<FastFoodWebApplication.Models.Voucher> Voucher { get; set; }
-        public DbSet<FastFoodWebApplication.Models.UserVoucher> UserVoucher { get; set; }
+        public DbSet<KFCApplication.Models.Voucher> Voucher { get; set; }
+        public DbSet<KFCApplication.Models.UserVoucher> UserVoucher { get; set; }
 
 
 

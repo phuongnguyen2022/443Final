@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public class OrderDetail
     {

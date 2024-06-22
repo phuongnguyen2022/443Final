@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 
-namespace FastFoodWebApplication.Models
+namespace KFCApplication.Models
 {
     public class MenuViewModel
     {

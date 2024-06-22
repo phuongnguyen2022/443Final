@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class DishTypesController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
 
-        public DishTypesController(FastFoodWebApplicationContext context)
+        public DishTypesController(KFCApplicationContext context)
         {
             _context = context;
         }
@@ -26,7 +26,7 @@ namespace FastFoodWebApplication.Controllers
 
               return _context.DishType != null ? 
                           View(await _context.DishType.ToListAsync()) :
-                          Problem("Entity set 'FastFoodWebApplicationContext.DishType'  is null.");
+                          Problem("Entity set 'KFCApplicationContext.DishType'  is null.");
         }
 
         // GET: DishTypes/Details/5
@@ -152,7 +152,7 @@ namespace FastFoodWebApplication.Controllers
         {
             if (_context.DishType == null)
             {
-                return Problem("Entity set 'FastFoodWebApplicationContext.DishType'  is null.");
+                return Problem("Entity set 'KFCApplicationContext.DishType'  is null.");
             }
             var dishType = await _context.DishType.FindAsync(id);
             if (dishType != null)

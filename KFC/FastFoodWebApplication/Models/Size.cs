@@ -1,4 +1,4 @@
-﻿namespace FastFoodWebApplication.Models
+﻿namespace KFCApplication.Models
 {
     public class Size
     {

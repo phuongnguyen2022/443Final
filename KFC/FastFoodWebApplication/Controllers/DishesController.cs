@@ -5,22 +5,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Http;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Authorization;
 using System.Globalization;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     [Authorize(Roles = "admin")]
     public class DishesController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
         private readonly String _webRoot;
-        public DishesController(FastFoodWebApplicationContext context, IWebHostEnvironment env)
+        public DishesController(KFCApplicationContext context, IWebHostEnvironment env)
         {
             _context = context;
             _webRoot = env.WebRootPath;
@@ -82,8 +82,8 @@ namespace FastFoodWebApplication.Controllers
             var pageSize = 3;
             var model = await PaginatedList<Dish>.CreateAsync(dishes, pageNumber ?? 1, pageSize);
             return View(model);
-            //var fastFoodWebApplicationContext = _context.Dish.Include(d => d.DishType);
-            //return View(await fastFoodWebApplicationContext.ToListAsync());
+            //var KFCApplicationContext = _context.Dish.Include(d => d.DishType);
+            //return View(await KFCApplicationContext.ToListAsync());
         }
 
         // GET: Dishes/Details/5
@@ -254,7 +254,7 @@ namespace FastFoodWebApplication.Controllers
         {
             if (_context.Dish == null)
             {
-                return Problem("Entity set 'FastFoodWebApplicationContext.Dish'  is null.");
+                return Problem("Entity set 'KFCApplicationContext.Dish'  is null.");
             }
             var dish = await _context.Dish.FindAsync(id);
             if (dish != null)

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace FastFoodWebApplication
+namespace KFCApplication
 {
     public class SeedData
     {

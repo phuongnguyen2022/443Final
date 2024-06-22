@@ -3,7 +3,7 @@
 @model IdentityUserRole<int>
 @inject UserManager<AppUser> UserManager
 @inject SignInManager<AppUser> SignInManager
-@inject FastFoodWebApplication.Data.FastFoodWebApplicationContext DBContext
+@inject KFCApplication.Data.KFCApplicationContext DBContext
 @{
     var name = await DBContext.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
 }

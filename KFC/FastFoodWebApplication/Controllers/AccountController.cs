@@ -1,5 +1,5 @@
-﻿using FastFoodWebApplication.Data;
-using FastFoodWebApplication.Models;
+﻿using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -9,14 +9,14 @@ using System.Text;
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using FastFoodWebApplication.Areas.Identity.Pages.Account;
-using FastFoodWebApplication.Models;
+using KFCApplication.Areas.Identity.Pages.Account;
+using KFCApplication.Models;
 using System.Threading.Tasks;
 using System.Threading;
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using FastFoodWebApplication.Areas.Identity.Pages.Account;
+using KFCApplication.Areas.Identity.Pages.Account;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -25,13 +25,13 @@ using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FastFoodWebApplication.Controllers
+namespace KFCApplication.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly FastFoodWebApplicationContext _context;
+        private readonly KFCApplicationContext _context;
         private readonly String _webRoot;
-        public AccountController(FastFoodWebApplicationContext context, IWebHostEnvironment env)
+        public AccountController(KFCApplicationContext context, IWebHostEnvironment env)
         {
             _context = context;
             _webRoot = env.WebRootPath;
@@ -228,7 +228,7 @@ namespace FastFoodWebApplication.Controllers
             return Json(new { success = false });
         }
         //[Authorize(Roles ="admin")]
-        public IActionResult ManageRole([FromServices] FastFoodWebApplicationContext context)
+        public IActionResult ManageRole([FromServices] KFCApplicationContext context)
         {
             var users = context.Users.Include(x =>x.Profile).ToList();
             ViewBag.Users = users;
@@ -236,7 +236,7 @@ namespace FastFoodWebApplication.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ManageRole(IdentityUserRole<int> model, [FromServices] FastFoodWebApplicationContext context, [FromServices] UserManager<AppUser> userManager)
+        public async Task<IActionResult> ManageRole(IdentityUserRole<int> model, [FromServices] KFCApplicationContext context, [FromServices] UserManager<AppUser> userManager)
         {
             var user = await context.Users.FirstOrDefaultAsync(x => x.Id == model.UserId);
             var roles = await userManager.GetRolesAsync(new AppUser { Id = model.UserId });
@@ -246,7 +246,7 @@ namespace FastFoodWebApplication.Controllers
             await userManager.AddToRoleAsync(user, role.Name);
             return PartialView("UpdateRoleResult");
         }
-        public IActionResult GetRole(int id, [FromServices] FastFoodWebApplicationContext context, [FromServices] RoleManager<IdentityRole<int>> roleManager)
+        public IActionResult GetRole(int id, [FromServices] KFCApplicationContext context, [FromServices] RoleManager<IdentityRole<int>> roleManager)
         {
             var users = context.Users.SingleOrDefault(x => x.Id == id);
             var roles = roleManager.Roles.ToList();

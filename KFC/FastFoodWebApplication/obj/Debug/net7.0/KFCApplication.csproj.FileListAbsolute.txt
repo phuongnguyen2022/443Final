@@ -1,0 +1,10 @@
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.RazorAssemblyInfo.cache
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.RazorAssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\obj\Debug\net7.0\KFCApplication.sourcelink.json
