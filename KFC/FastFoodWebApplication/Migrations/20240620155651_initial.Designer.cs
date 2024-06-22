@@ -11,9 +11,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace KFCApplication.Migrations
 {
+<<<<<<<< HEAD:KFC/FastFoodWebApplication/Migrations/20240620155651_initial.Designer.cs
     [DbContext(typeof(KFCApplicationContext))]
     [Migration("20240620155651_initial")]
     partial class initial
+========
+    [DbContext(typeof(FastFoodWebApplicationContext))]
+    [Migration("20240607140325_model")]
+    partial class model
+>>>>>>>> origin/Tuyen:KFC/FastFoodWebApplication/Migrations/20240607140325_model.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

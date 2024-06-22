@@ -5,9 +5,15 @@
     List<DishType> dishTypes = await _context.DishType.ToListAsync();
 }
 @*@inject IGenreService GenreService*@
+<!-- Bootstrap CSS -->
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false" >
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         CATEGORIES
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -23,9 +29,8 @@
 </div>
 <style>
     .btn-secondary {
-        color: white;
-        background-color: black;
-        border-color: black;
+        color: Red;
+        background-color: White;
         margin-top: -2px;
     }
 </style>

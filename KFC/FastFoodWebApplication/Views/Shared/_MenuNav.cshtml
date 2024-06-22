@@ -33,8 +33,62 @@
     <link href="css/responsive.css" rel="stylesheet" />
     <style>
         .header_section {
-            background-color: black;
+            background-color: white;
+            border-bottom: 2px solid red;
         }
+
+        .navbar-brand span {
+            color: red;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .nav-link {
+            color: red !important;
+            font-weight: bold;
+        }
+
+            .nav-link:hover {
+                color: darkred !important;
+            }
+
+        .cart_link {
+            position: relative;
+            display: inline-block;
+        }
+
+            .cart_link:after {
+                content: attr(value);
+                font-size: 12px;
+                color: #fff;
+                background: red;
+                border-radius: 50%;
+                padding: 0 5px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        .navbar-toggler {
+            border-color: red;
+        }
+
+            .navbar-toggler span {
+                color: red;
+            }
+
+        .user_option a {
+            color: red;
+        }
+
+            .user_option a:hover {
+                color: darkred;
+            }
+
     </style>
 
 </head>
@@ -44,7 +98,7 @@
             <nav class="navbar navbar-expand-lg custom_nav-container ">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <span>
-                        AnkAnk
+                        KFC
                     </span>
                 </a>
 
@@ -53,31 +107,31 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mx-auto ">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Menu" asp-action="Index">Menu</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <partial name="_DishTypesPartial" />
-                        </li>
+                        </li> *@
                     </ul>
                     <div class="user_option">
                         @if (count > 0)
                         {
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            @*  <i class="fa fa-user" aria-hidden="true"></i> *@
 
                             <a class="cart_link" asp-controller="Carts" asp-action="Index" value="@count">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" /></svg>
+                                <img src="~/images/kfc-cart.png" alt="Cart" height="55" width="50" />
                             </a>
                         }
                         else
                         {
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            @* <i class="fa fa-user" aria-hidden="true"></i> *@
                             <a class="cart_link" asp-controller="Carts" asp-action="Index" value="">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" /></svg>
+                                <img src="~/images/kfc-cart.png" alt="Cart" height="55" width="50" />
                             </a>
                         }
                     </div>
@@ -88,18 +142,3 @@
         </div>
     </header>
 </div>
-<style>
-    .cart_link:after {
-        content: attr(value);
-        font-size: 12px;
-        color: #fff;
-        background: red;
-        border-radius: 50%;
-        padding: 0 5px;
-        position: relative;
-        left: -8px;
-        top: -10px;
-        opacity: 0.9;
-    }
-
-</style>

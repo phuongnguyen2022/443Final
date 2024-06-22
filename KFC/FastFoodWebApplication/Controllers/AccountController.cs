@@ -213,10 +213,12 @@ namespace KFCApplication.Controllers
                 }
 
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return Json(new { success = true });
             }
 
-            return View(profile);
+            //return View(profile);
+            return Json(new { success = false });
         }
 
         public IActionResult ManageRole([FromServices] KFCApplicationContext context)
