@@ -19,8 +19,9 @@
                 <span class="avatar-container">
                     <img id="avt" src="/@(user?.Profile?.Avatar??defaultAva)" />
                 </span>
+                
                 <span id="username">
-                    Hi @(user?.Profile == null ? user?.UserName : user?.Profile?.FullName)
+                     @(user?.Profile == null ? user?.UserName : user?.Profile?.FullName)
                 </span>
             </a>
         </li>
@@ -54,6 +55,7 @@
         border-radius: 50%;
         display: block;
         overflow: hidden;
+        margin-right: 10px;
     }
 
     #avatar {
@@ -67,6 +69,10 @@
     .nav-item {
         display: flex;
         align-items: center;
+    }
+
+    #username {
+        text-transform: none;
     }
 </style>
 

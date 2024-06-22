@@ -9,7 +9,6 @@
     var user = await Context.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
     decimal userSpend = user.Profile.UserSpend;
 
-
     string memberShip = "Silver";
     if (userSpend >= 3000000)
     {
@@ -23,93 +22,302 @@
     {
         memberShip = "Platinum";
     }
-
-    
 }
 @await Html.PartialAsync("_HeadPartial")
 
-<h1 style="margin-left: 100px">User Profile</h1>
-<h4 style="margin-left: 100px">Membership: @memberShip</h4>
-<div class="row" style="margin-left: 100px">
-    <div class="col-md-8">
-        <form asp-action="Index" enctype="multipart/form-data" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Avatar" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="Avatar" type="file" accept="image/*" onchange="loadFile(event)" class="form-control" />
-                <img id="output" src="@(Model?.Avatar??defaultAva)" />
+<div class="container">
+    <div class="row gutters">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="account-settings">
+                        <div class="user-profile">
+                            <div class="user-avatar">
+                                <img id="output" src="@(Model?.Avatar??defaultAva)" />
+                            </div>
+                            <h5 class="user-name">@user.Profile.FirstName @user.Profile.LastName</h5>
+                            <h6 class="user-email">@user.Email</h6>
+                        </div>
+                        <div class="about">
+                            <h5>About</h5>
+                            <p>Hi @user.Profile.FirstName, Welcome to KFC and enjoy your meal.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="FirstName" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="FirstName" class="form-control" />
-                <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="row gutters">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            @* <h6 class="mb-2 text-primary">Personal Details</h6> *@
+                        </div>
+                        <form asp-action="Index" enctype="multipart/form-data" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    @* <label asp-for="Avatar" class="control-label profile-label"></label> *@
+                                    <input asp-for="Avatar" type="file" accept="image/*" onchange="loadFile(event)" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="FirstName" class="control-label profile-label"></label>
+                                    <input asp-for="FirstName" class="form-control" />
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="LastName" class="control-label profile-label"></label>
+                                    <input asp-for="LastName" class="form-control" />
+                                    <span asp-validation-for="LastName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Gender" class="control-label profile-label"></label>
+                                    <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control"></select>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Dob" class="control-label profile-label"></label>
+                                    <input asp-for="Dob" class="form-control" />
+                                    <span asp-validation-for="Dob" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Address" class="control-label profile-label"></label>
+                                    <input asp-for="Address" class="form-control" />
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Phone" class="control-label profile-label"></label>
+                                    <input asp-for="Phone" class="form-control" />
+                                    <span asp-validation-for="Phone" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Nationality" class="control-label profile-label"></label>
+                                    <select asp-for="Nationality" asp-items="Html.GetEnumSelectList<Nationality>()" class="form-control"></select>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-right">
+                                    
+                                    <input type="submit" value="Update" asp-controller="Account" asp-action="UpdateProfile" class="btn btn-primary update-btn" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row gutters">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div><a asp-action="Index" asp-controller="Orders" class="order-history-link">Order History</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="LastName" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="LastName" class="form-control" />
-                <span asp-validation-for="LastName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Gender" class="control-label" style="font-weight: bold;"></label>
-                <select asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Dob" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="Dob" class="form-control" />
-                <span asp-validation-for="Dob" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Address" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="Address" class="form-control" />
-                <span asp-validation-for="Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phone" class="control-label" style="font-weight: bold;"></label>
-                <input asp-for="Phone" class="form-control" />
-                <span asp-validation-for="Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nationality" class="control-label" style="font-weight: bold;"></label>
-                <select asp-for="Nationality" asp-items="Html.GetEnumSelectList<Nationality>()" class="form-control"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Update" asp-controller="Account" asp-action="UpdateProfile" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
-    <div class="col-md-2">
-        <div><a asp-action="Index" asp-controller="Orders">Order History </a></div>
 </div>
-    <style>
-        input[type=file] {
-            display: none
-        }
 
-        #output {
-            cursor: pointer;
-            width: 100px;
-            height: 100px;
-            border: 1px solid gray;
-            min-width: 100px
-        }
-    </style>
-    @section Scripts {
-        @{
-            await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        }
-
-        <script>
-            var loadFile = function (event) {
-                var output = document.getElementById('output');
-                output.src = URL.createObjectURL(event.target.files[0]);
-                output.onload = function () {
-                    URL.revokeObjectURL(output.src) // free memory
-                }
-            };
-
-            $("#output").click(function () {
-                $("input[type=file]").click();
-            })
-        </script>
+<style>
+    body {
+        margin: 0;
+        color: #2e323c;
+        background: #f5f6fa;
+        position: relative;
+        height: 100%;
     }
 
+    h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif; /* Ensure headings also use chosen font */
+    }
+
+    .account-settings .user-profile {
+        margin: 0 0 1rem 0;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+        .account-settings .user-profile .user-avatar {
+            margin: 0 0 1rem 0;
+        }
+
+            .account-settings .user-profile .user-avatar img {
+                width: 90px;
+                height: 90px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                border-radius: 100px;
+            }
+
+        .account-settings .user-profile h5.user-name {
+            margin: 0 0 0.5rem 0;
+        }
+
+        .account-settings .user-profile h6.user-email {
+            margin: 0;
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: #9fa8b9;
+        }
+
+    .account-settings .about {
+        margin: 2rem 0 0 0;
+        text-align: center;
+    }
+
+        .account-settings .about h5 {
+            margin: 0 0 15px 0;
+            color: #007ae1;
+        }
+
+        .account-settings .about p {
+            font-size: 0.825rem;
+        }
+
+    .form-control {
+        border: 1px solid #cfd1d8;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        font-size: .825rem;
+        background: #ffffff;
+        color: #2e323c;
+    }
+
+    .card {
+        background: #ffffff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        margin-bottom: 1rem;
+    }
+
+    .profile-header {
+        text-align: center;
+        color: #d32f2f; /* KFC Red */
+        font-weight: bold;
+    }
+
+    .membership-info {
+        text-align: center;
+        color: #000; /* Black */
+    }
+
+    .profile-label {
+        font-weight: bold;
+        color: #000; /* Black */
+    }
+
+    .update-btn {
+        background-color: #d32f2f; /* KFC Red */
+        border-color: #d32f2f;
+        justify-content: center;
+    }
+
+        .update-btn:hover {
+            background-color: #a12a2a; /* Darker KFC Red */
+            border-color: #a12a2a;
+        }
+
+    .order-history-link {
+        color: #d32f2f; /* KFC Red */
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin-top: 15px;
+    }
+
+    input[type=file] {
+        display: none;
+    }
+
+    #output {
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        min-width: 100px;
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        var loadFile = function (event) {
+            var output = document.getElementById('output');
+            output.src = URL.createObjectURL(event.target.files[0]);
+            output.onload = function () {
+                URL.revokeObjectURL(output.src) // free memory
+            }
+        };
+
+        $("#output").click(function () {
+            $("input[type=file]").click();
+        });
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('form').on('submit', function (e) {
+                e.preventDefault();
+
+                var formData = new FormData(this);
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("UpdateProfile", "Account")',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                title: 'Success!',
+                                text: 'Profile updated successfully.',
+                                icon: 'success',
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload();
+                                }
+                            });
+                        } else {
+                            Swal.fire({
+                                title: 'Error!',
+                                text: 'There was a problem updating your profile. Please try again.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    },
+                    error: function () {
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'There was a problem updating your profile. Please try again.',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

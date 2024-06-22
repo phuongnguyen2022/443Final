@@ -11,155 +11,163 @@
         string img = Model.DishImage.Replace("\\", "/");
         image = "/" + img;
     }
-    // decimal priceM = ViewBag.Price + 5000;
-    // decimal priceL = ViewBag.Price + 10000;
-    // decimal prieS = 0;
-    // var s = prieS.FormatNumber();
-    // var m = priceM.FormatNumber();
-    // var l = priceL.FormatNumber();
-    // var selectItems = new[]
-    // {
-    //     new { Text = "S - 0 đ", Value = DishSize.S },
-    //     new { Text = "M - " + m, Value = DishSize.M },
-    //     new { Text = "L - " + l, Value = DishSize.L }
-    //  };
-    // var selectSize = new SelectList(selectItems, "Value", "Text");
 }
-
 
 <div class="detail-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-4">
-                <img src="@image" style="width: 300px"></img>
+                <img src="@image" class="dish-image"></img>
             </div>
             <div class="col-6">
-                <div class="container">
-                    <h1>   @Html.DisplayFor(model => model.Name)</h1>
-                </div>
-
-                <div class="container">
-                    <div class="row justify-content-start ">
-                        <div class="col-2">
-                            <h5>Price:</h5>
-                        </div>
-                        <div class="col-6">
-                            @{
-                                var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", Model.DishPrice);
-                            }
-                            <h5 id="price_@Model.DishId" style="color: red">@price</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <h5>   @Html.DisplayFor(model => model.Description)</h5>
-                </div>
-                <div class="container row justify-content-start">
+                <h1 class="dish-name">@Html.DisplayFor(model => model.Name)</h1>
+                <h5 class="dish-price text-danger">
                     @{
-                        
+                        var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", Model.DishPrice);
+                    }
+                    @price
+                </h5>
+                <div class="dish-description">
+                    <h5>@Html.DisplayFor(model => model.Description)</h5>
+                </div>
+                <div class="size-options">
+                    @{
                         var totalSizeS = string.Format(new CultureInfo("vi-VN"), "{0:C}", Model.DishPrice);
                         var sizeM = Model.DishPrice * 0.4m;
                         var totalSizeM = string.Format(new CultureInfo("vi-VN"), "{0:C}", Model.DishPrice + sizeM);
                         var sizeL = Model.DishPrice * 0.8m;
                         var totalSizeL = string.Format(new CultureInfo("vi-VN"), "{0:C}", Model.DishPrice + sizeL);
-
                     }
                     <form method="post" asp-controller="Carts" asp-action="Create">
                         <input type="hidden" name="DishID" value="@Model.DishId" />
-                        <label for="size">Choose a size:</label>
-                        <div class="size-options">
+                        <label>Choose a size:</label>
+                        <div class="size-options-container">
                             <input type="radio" name="size" id="sizeS" value="S" onchange="changeDishSize('@Model.DishId', this)" checked>
                             <label for="sizeS">S - @totalSizeS</label>
 
                             <input type="radio" name="size" id="sizeM" value="M" onchange="changeDishSize('@Model.DishId', this)">
-                            <label for="sizeM">M - @totalSizeM </label>
+                            <label for="sizeM">M - @totalSizeM</label>
 
                             <input type="radio" name="size" id="sizeL" value="L" onchange="changeDishSize('@Model.DishId', this)">
                             <label for="sizeL">L - @totalSizeL</label>
                         </div>
-                        <div>
-                            @{
-                                var quantityValue = 1;
-                            }
-                            <button type="button" onclick="adjustQuantity('@Model.DishId', 'down',this)">-</button>
-                            <input name="quantity" value="@quantityValue" id="quantity_@Model.DishId" class="quantity" data-price="@Model.DishPrice" />
-                            <button type="button" onclick="adjustQuantity('@Model.DishId', 'up',this)">+</button>
+                        <div class="quantity-controls">
+                            <button type="button" class="quantity-btn" onclick="adjustQuantity('@Model.DishId', 'down',this)">-</button>
+                            <input name="quantity" value="1" id="quantity_@Model.DishId" class="quantity-input" data-price="@Model.DishPrice" readonly />
+                            <button type="button" class="quantity-btn" onclick="adjustQuantity('@Model.DishId', 'up',this)">+</button>
                         </div>
                         <input type="hidden" id="basePrice_@Model.DishId" value="@price" />
                         <div class="options">
-                            @if(Model.DishStatus == 0)
+                            @if (Model.DishStatus == 0)
                             {
-                               
-                                <button id="soldOutLink1" type="submit" class="cart-button">
-                                    Mua Ngay
+                                <button id="soldOutLink1" type="submit" class="btn btn-danger cart-button">
+                                    Buy Now
                                 </button>
-                            }else{
-                                
-                                <button type="submit" class="cart-button">
-                                    Mua Ngay
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-danger cart-button">
+                                    Buy Now
                                 </button>
-                            }                           
+                            }
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
+
 <style>
-
-    .add-to-cart-button {
-        position: absolute;
-        bottom: 0;
-        right: 100px;
+    .detail-center {
+        padding: 20px;
     }
 
-    .cart-button {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background-color: blue;
-        color: white;
-        border: none;
-        border-radius: 5px;
+    .dish-image {
+        width: 100%;
+        max-width: 300px;
     }
 
-    .size-options label {
-        display: inline-block;
-        margin-right: 20px; /* Adjust the spacing between radio buttons and labels */
-        vertical-align: middle; /* Align the label with the middle of the radio button */
+    .dish-name {
+        font-size: 2em;
+        margin-bottom: 10px;
     }
 
-    .size-options input[type="radio"] {
-        display: none; /* Hide the default radio button */
+    .dish-price {
+        font-size: 1.5em;
+        color: red;
     }
 
-    .size-options label {
-        position: relative;
-        padding-left: 30px; /* Adjust the width of the square */
-        cursor: pointer;
-        line-height: 20px; /* Adjust as needed */
+    .dish-description {
+        margin-bottom: 20px;
     }
 
-        .size-options label:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%); /* Center the square vertically */
-            width: 20px; /* Adjust the width of the square */
-            height: 20px; /* Adjust the height of the square */
-            border: 1px solid #000; /* Adjust the border color */
-            background-color: #fff; /* Adjust the background color */
-            border-radius: 3px; /* Adjust the border-radius for rounded corners */
+    .size-options {
+        margin-bottom: 20px;
+    }
+
+        .size-options label {
+            display: block;
+            margin-bottom: 10px;
         }
 
-    .size-options input[type="radio"]:checked + label:before {
-        background-color: blue; /* Adjust the background color when selected */
-        border-color: blue; /* Adjust the border color when selected */
+    .size-options-container label {
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+        line-height: 20px;
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .size-options-container input[type="radio"]:checked + label:before {
+        background-color: blue;
+        border-color: blue;
+    }
+
+    .size-options-container label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .quantity-controls {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .quantity-btn {
+        background-color: #f8f9fa;
+        border: 1px solid #ced4da;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .quantity-input {
+        text-align: center;
+        width: 50px;
+        border: 1px solid #ced4da;
+        margin: 0 5px;
+    }
+
+    .btn-danger {
+        background-color: #d9534f;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
     }
 </style>
+
+
 <script>
     function adjustQuantity(productId, direction, ele) {
         var quantityElement = $('#quantity_' + productId);
@@ -176,13 +184,9 @@
     function changeDishSize(productId, ele) {
         var newSize = $(ele).val();
         var basePrice = parseFloat($('#basePrice_' + productId).val()); // Get the base price
-        
+
         var updatedPrice = calculateUpdatedPrice(newSize, basePrice);
         var priceElement = $('#price_' + productId);
-        // priceElement.html(updatedPrice+".000 đ");
-
-        // Set the value of the hidden input field temporarily
-        // $('#priceInput_' + productId).val(updatedPrice);
     }
     function calculateUpdatedPrice(size, basePrice) {
         var sizePrice = 0;
@@ -196,19 +200,15 @@
         return (basePrice + sizePrice);
     }
     function updatePrice(productId) {
-        var newSize = $("input[name='size']:checked").val(); 
-        var basePrice = parseFloat($('#basePrice_' + productId).val()); 
-        var quantity = parseInt($('#quantity_' + productId).val()); 
-       
-        var updatedPrice = calculateUpdatedPrice(newSize, basePrice) * quantity;
+        var newSize = $("input[name='size']:checked").val();
+        var basePrice = parseFloat($('#basePrice_' + productId).val());
+        var quantity = parseInt($('#quantity_' + productId).val());
 
-        // Display the updated price
-        // $('#price_' + productId).html(updatedPrice.toFixed(3) + " đ");
+        var updatedPrice = calculateUpdatedPrice(newSize, basePrice) * quantity;
     }
 
     $('form').submit(function () {
         console.log('Form submitted!');
-        // Add more console.log statements to display values
     });
     $('input[name="size"]').change(function () {
         var productId = '@Model.DishId';
@@ -217,14 +217,12 @@
     var soldOutLink = document.getElementById("soldOutLink");
 
     // Add a click event listener
-    soldOutLink.addEventListener("click", function (event) {    
+    soldOutLink.addEventListener("click", function (event) {
         // Prevent the default behavior of the link
         event.preventDefault();
 
         // Perform any actions you want when the link is clicked
         alert("This dish is sold out!");
-        // You can also perform additional actions here, such as updating the UI
-        // to visually indicate that the dish is sold out.
     });
 
     var soldOutLink = document.getElementById("soldOutLink1");

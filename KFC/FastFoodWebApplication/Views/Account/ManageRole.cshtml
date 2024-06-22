@@ -6,25 +6,27 @@
             @foreach (AppUser user in ViewBag.Users)
             {
                 <div class="row">
-                    @Html.AjaxActionLink(user.Profile?.FullName??user.Email, "GetRole", new {id=user.Id},
-                new AjaxOptions{
-                UpdateTargetId = "form",
-                LoadingElementId = "loading",
-                HttpMethod = "GET",
-                InsertionMode = InsertionMode.Replace,
-                OnSuccess = "clearResult"})
+                    @Html.AjaxActionLink(user.Profile?.FullName ?? user.Email, "GetRole", new { id = user.Id },
+                             new AjaxOptions
+                {
+                    UpdateTargetId = "form",
+                    LoadingElementId = "loading",
+                    HttpMethod = "GET",
+                    InsertionMode = InsertionMode.Replace,
+                    OnSuccess = "clearResult"
+                })
                 </div>
-            } 
+            }
         </div>
 
-        <div class="col-md-5" style="margin-top:20px;">
+        <div class="col-md-5">
             <div id="loading" style="display:none">Loading....................</div>
             @using (Html.AjaxBeginForm(new AjaxOptions
-                {
-                    HttpMethod = "post",
-                    InsertionMode = InsertionMode.Replace,
-                    UpdateTargetId = "result"
-                }))
+             {
+                 HttpMethod = "post",
+                 InsertionMode = InsertionMode.Replace,
+                 UpdateTargetId = "result"
+             }))
             {
                 <div class="form-group" id="form">
                 </div>
