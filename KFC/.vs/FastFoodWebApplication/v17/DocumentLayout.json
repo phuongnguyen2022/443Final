@@ -1,96 +1,214 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\",
+  "WorkspaceRootPath": "D:\\DONET\\443Final\\KFC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Migrations\\20240622060808_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FastFoodWebApplication\\Migrations\\20240622060808_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\shared\\_headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\shared\\_dishtypespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_dishtypespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\data\\kfcapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\data\\kfcapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\_menunav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_menunav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\dishtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\dishtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\data\\fastfoodwebapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\data\\fastfoodwebapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\_dishtypespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_dishtypespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\wwwroot\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\wwwroot\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\controllers\\dishtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\controllers\\dishtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.DishType.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\orders\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\orders\\manageorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\orders\\manageorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\_headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\wwwroot\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\vouchers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\vouchers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\account\\managerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\managerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\account\\_roleform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\_roleform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetRoleClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserLogins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.Profile.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\account\\managerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\managerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\migrations\\20231227191828_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\migrations\\20231227191828_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\migrations\\20240519065340_fastfoodwebapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\migrations\\20240519065340_fastfoodwebapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\registerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|d:\\donet\\443final\\kfc\\fastfoodwebapplication\\models\\registerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\registerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|c:\\users\\asus\\onedrive\\documents\\cse 443\\kfc\\fastfoodwebapplication-master\\fastfoodwebapplication\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00C3B345-2399-4F5D-AE6C-B2C6F63D5001}|FastFoodWebApplication\\FastFoodWebApplication.csproj|solutionrelative:fastfoodwebapplication\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetRoleClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.__EFMigrationsHistory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -103,261 +221,688 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240622060808_initial.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Migrations\\20240622060808_initial.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Migrations\\20240622060808_initial.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Migrations\\20240622060808_initial.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Migrations\\20240622060808_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:08:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\CartsController.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\CartsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:58:05.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\DishesController.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\DishesController.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\DishesController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAywEwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:01:40.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\Dish.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\Dish.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\Dish.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:58:53.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAzwN8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:40:58.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KFCApplicationContext.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Data\\KFCApplicationContext.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Data\\KFCApplicationContext.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Data\\KFCApplicationContext.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Data\\KFCApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:03:34.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Program.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Program.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:50:48.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
               "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
               "RelativeToolTip": "FastFoodWebApplication\\Views\\Menu\\Details.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-07T13:10:49.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_DishTypesPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "_MenuNav.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_MenuNav.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_MenuNav.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_MenuNav.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_MenuNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T13:00:33.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_HeadPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:59:57.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Controllers\\CartsController.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\CartsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Controllers\\CartsController.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\CartsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:58:05.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:55:56.81Z"
+              "WhenOpened": "2024-06-21T04:41:53.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "dbo.Profile [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.Profile.sql",
-              "ToolTip": "dbo.Profile [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-07T12:55:04.081Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:37:58.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ManageRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\DishTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\DishTypes\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\DishTypes\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\DishTypes\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAIBPwDwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:47:33.685Z"
+              "WhenOpened": "2024-06-22T05:01:28.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FastFoodWebApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Data\\FastFoodWebApplicationContext.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Data\\FastFoodWebApplicationContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Data\\FastFoodWebApplicationContext.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Data\\FastFoodWebApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:52:51.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAA0wCkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:42:21.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginInput.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\LoginInput.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\LoginInput.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\LoginInput.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\LoginInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:42:32.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAiwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:40:58.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\SeedData.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\SeedData.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\SeedData.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\SeedData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:59:13.837Z"
+              "WhenOpened": "2024-06-07T14:16:44.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Cart.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\Cart.cs",
+              "Title": "LoginInput.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\LoginInput.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\LoginInput.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\LoginInput.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\LoginInput.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:45:44.239Z"
+              "WhenOpened": "2024-06-07T12:42:32.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\AppUser.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:45:41.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\Profile.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Profile.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\Profile.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:41:12.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PaginatedList.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\PaginatedList.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\PaginatedList.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\PaginatedList.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\PaginatedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:42:11.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegisterInput.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\RegisterInput.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\RegisterInput.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\RegisterInput.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\RegisterInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:41:13.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Program.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:50:48.195Z"
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Dishes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Dishes\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Dishes\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Dishes\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBPwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T05:00:52.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "_DishTypesPartial.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_DishTypesPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:42:19.644Z"
+              "WhenOpened": "2024-06-07T13:00:33.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240519065340_FastFoodWebApplication.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Migrations\\20240519065340_FastFoodWebApplication.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Migrations\\20240519065340_FastFoodWebApplication.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Migrations\\20240519065340_FastFoodWebApplication.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Migrations\\20240519065340_FastFoodWebApplication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:53:40.978Z"
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBPwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:42:21.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "style.scss",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.scss",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\wwwroot\\css\\style.scss",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.scss",
+              "RelativeToolTip": "FastFoodWebApplication\\wwwroot\\css\\style.scss",
+              "ViewState": "AQIAALEAAAAAAAAAAAAowLwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-06-21T07:35:29.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "20231227191828_model.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Migrations\\20231227191828_model.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Migrations\\20231227191828_model.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Migrations\\20231227191828_model.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Migrations\\20231227191828_model.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBPwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T07:28:15.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DishTypesController.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\DishTypesController.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Controllers\\DishTypesController.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Controllers\\DishTypesController.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Controllers\\DishTypesController.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAuwKAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:50:02.558Z"
+              "WhenOpened": "2024-06-21T15:32:26.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DishType.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\DishType.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\DishType.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\DishType.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\DishType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T15:49:36.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Orders\\Checkout.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\Checkout.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Orders\\Checkout.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAIBPwFgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T15:10:16.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAIBPwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T15:09:52.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "ManageOrder.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\ManageOrder.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Orders\\ManageOrder.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Orders\\ManageOrder.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Orders\\ManageOrder.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBPwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T15:10:05.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_HeadPartial.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_HeadPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:59:57.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwB4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:43:34.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:46:43.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T07:30:08.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeToolTip": "FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-21T07:40:49.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "responsive.css",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+              "RelativeToolTip": "FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-21T07:40:51.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FastFoodWebApplication\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-21T07:40:54.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+              "RelativeToolTip": "FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+              "ViewState": "AQIAABUAAAAAAAAAAIBPwAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-21T07:40:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:46:25.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T14:21:05.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Index.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Index.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:46:26.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Vouchers\\Create.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Vouchers\\Create.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Vouchers\\Create.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Vouchers\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBPwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T04:46:32.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T07:33:43.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ManageRole.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\ManageRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:47:33.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_RoleForm.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\_RoleForm.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\_RoleForm.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\_RoleForm.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\_RoleForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBPwBMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T14:16:56.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:42:19.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\appsettings.json",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\appsettings.json",
+              "RelativeToolTip": "FastFoodWebApplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T14:20:12.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\PaginatedList.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\PaginatedList.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\PaginatedList.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:42:11.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\SeedData.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\SeedData.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\SeedData.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\SeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:59:13.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
+              "RelativeToolTip": "FastFoodWebApplication\\Views\\Dishes\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAIBPwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T12:55:56.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\Cart.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\Cart.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:45:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\AppUser.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\AppUser.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:45:41.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegisterInput.cs",
+              "DocumentMoniker": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\RegisterInput.cs",
+              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\RegisterInput.cs",
+              "ToolTip": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\Models\\RegisterInput.cs",
+              "RelativeToolTip": "FastFoodWebApplication\\Models\\RegisterInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:41:13.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dbo.DishType [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.DishType.sql",
+              "ToolTip": "dbo.DishType [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-21T15:35:23.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T14:06:13.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T14:06:21.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "dbo.AspNetRoleClaims [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetRoleClaims.sql",
               "ToolTip": "dbo.AspNetRoleClaims [Data]",
@@ -366,24 +911,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Dish.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Dish.cs",
-              "RelativeDocumentMoniker": "FastFoodWebApplication\\Models\\Dish.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Documents\\CSE 443\\KFC\\FastFoodWebApplication-master\\FastFoodWebApplication\\Models\\Dish.cs",
-              "RelativeToolTip": "FastFoodWebApplication\\Models\\Dish.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T06:58:53.878Z"
+              "DocumentIndex": 43,
+              "Title": "dbo.AspNetUserClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserClaims.sql",
+              "ToolTip": "dbo.AspNetUserClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T14:08:50.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T14:08:58.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "dbo.AspNetUserLogins [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "ToolTip": "dbo.AspNetUserLogins [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T14:08:54.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "dbo.Profile [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.Profile.sql",
+              "ToolTip": "dbo.Profile [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-07T12:55:04.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "dbo.__EFMigrationsHistory [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FastFoodWebApplicationContext_0de775c0_8c74_4d09_880f_44ef598796d6/True/SqlTable/dbo.__EFMigrationsHistory.sql",
               "ToolTip": "dbo.__EFMigrationsHistory [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-19T06:55:42.8Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

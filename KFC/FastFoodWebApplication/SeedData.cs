@@ -10,8 +10,8 @@ namespace KFCApplication
         {
             if (!await roleManager.Roles.AnyAsync())
             {
-                await roleManager.CreateAsync(new IdentityRole<int>("Admin"));
-                await roleManager.CreateAsync(new IdentityRole<int>("Customer"));
+                await roleManager.CreateAsync(new IdentityRole<int>("admin"));
+                await roleManager.CreateAsync(new IdentityRole<int>("user"));
             }
         }
     }
