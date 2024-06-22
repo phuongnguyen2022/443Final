@@ -4,6 +4,7 @@
 @model KFCApplication.Models.Profile
 @inject KFCApplication.Data.KFCApplicationContext Context
 @{
+    var date = DateOnly.FromDateTime(DateTime.Now);
     ViewData["Title"] = "Profile";
     var defaultAva = "images/avt.jpg";
     var user = await Context.Users.Include(u => u.Profile).SingleOrDefaultAsync(u => u.UserName == User.Identity.Name);
@@ -22,8 +23,10 @@
     {
         memberShip = "Platinum";
     }
+
 }
 @await Html.PartialAsync("_HeadPartial")
+
 
 <div class="container">
     <div class="row gutters">
@@ -83,8 +86,11 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="form-group">
-                                    <label asp-for="Dob" class="control-label profile-label"></label>
-                                    <input asp-for="Dob" class="form-control" />
+                                    <label asp-for="Dob" class="control-label profile-label">
+
+                                    </label><input asp-for="Dob" class="form-control" min="1900-01-01" max="@date.ToString("yyyy-MM-dd")" value="@date.ToString("yyyy-MM-dd")" />
+
+
                                     <span asp-validation-for="Dob" class="text-danger"></span>
                                 </div>
                             </div>

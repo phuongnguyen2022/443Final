@@ -21,19 +21,10 @@
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 ">
+                            <i class="fs-4 bi-speedometer2"><span class="d-none d-sm-inline text-white">Daily Report</span>
                         </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Report Sale</span>  </a>
-                            </li>
-                        </ul>
                     </li>
-
                     <li>
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
