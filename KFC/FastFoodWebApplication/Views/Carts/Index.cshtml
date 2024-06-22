@@ -24,9 +24,9 @@
     <link href="/css/style.css" rel="stylesheet" />
     <link href="/css/responsive.css" rel="stylesheet" />
 </head>
-<h1 style="margin-left: 100px">Your shopping cart</h1>
+<h1 style="margin-left: 50px">My Cart</h1>
 
-<table class="table" style="margin-left: 100px">
+<table class="table" style="margin-left: 50px">
     <thead>
         <tr>
             <th>
@@ -45,7 +45,7 @@
                 Size
             </th>
             <th>
-              Sub Price
+                Sub Price
             </th>
 
         </tr>
@@ -59,7 +59,7 @@
         {
             total += item.Price;
 
-            var image = "/images/f1.png";
+            var image = "/images/soldout.png";
             if (item.Dish.DishImage != null)
             {
                 string img = item.Dish.DishImage.Replace("\\", "/");
@@ -90,8 +90,6 @@
                     </td>
 
                     <td>
-                        @*  <a asp-action="Edit" asp-route-id="@item.CartId">Edit</a> | *@
-                        @*   <a asp-action="Details" asp-route-id="@item.CartId">Details</a> | *@
                         <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId">Delete</a>
                     </td>
                 </tr>
@@ -124,9 +122,7 @@
                     </td>
 
                     <td>
-                        @*  <a asp-action="Edit" asp-route-id="@item.CartId">Edit</a> | *@
-                        @*   <a asp-action="Details" asp-route-id="@item.CartId">Details</a> | *@
-                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId">Delete</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId"><i class="fa fa-trash"></i></a>
                     </td>
                 </tr>
             }
@@ -180,7 +176,7 @@
     }
 </style>
 
-@section Scripts{
+@section Scripts {
     <script>
         function changeSize(productId, ele, cartId) {
             var newSize = $(ele).val();
@@ -192,8 +188,6 @@
             console.log("Selector:", selector);
 
             var col = $(selector);
-
-
 
             $.post(`/Carts/UpdateCartBySize?dishId=${productId}&size=${newSize}&cartID=${cartId}`, function (data) {
                 console.log("Server response:", data);
@@ -207,18 +201,18 @@
                         quantityElement.html(data.updatedQuantity);
                         var priceElement = $('#price_' + productId);
                         priceElement.html(data.updatedPrice);
-                        var updatedTotal = updateTotal();
                         col.remove();
                     } else {
                         var priceElement = $('#price_' + productId);
                         priceElement.html(data.updatedPrice);
-                        var updatedTotal = updateTotal();
                     }
+                    updateTotal();
                 } else {
                     console.error('Update failed.');
                 }
             });
         }
+
         function updateTotal() {
             $.get('/Carts/GetTotal', function (total) {
                 $('#totalAmount').html(total);
@@ -234,29 +228,32 @@
             } else if (direction === 'down' && currentQuantity > 1) {
                 quantityElement.val(currentQuantity - 1);
             }
-            var updatedTotal = updateTotal();
-            console.log("Updated total:", updatedTotal);
 
             updateCart(productId, quantityElement.val(), ele);
         }
+
         function updateCart(productId, newQuantity, ele) {
-            var sizeElement = $(ele).closest('tr').find('td').find('select');
+            var sizeElement = $(ele).closest('tr').find('select');
             var size = sizeElement.val();
             var url = '@Url.Action("UpdateCart", "Carts")';
+
             $.post(url, { dishId: productId, quantity: newQuantity, size: size }, function (data) {
                 if (data.success) {
                     // Update the price on the client side
                     var priceElement = $('#price_' + productId);
                     priceElement.html(data.updatedPrice); // Display the price with 2 decimal places
+
+                    // Update the total price after updating the cart
+                    updateTotal();
                 } else {
                     // Handle the case where the update was not successful
                     console.error('Update failed.');
                 }
             });
         }
+
         $(document).ready(function () {
             updateTotal();
         });
-
     </script>
-            }
+}
