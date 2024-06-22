@@ -9,371 +9,371 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FastFoodWebApplication
 build_property.RootNamespace = FastFoodWebApplication
-build_property.ProjectDir = C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication\
+build_property.ProjectDir = D:\DONET\443Final\KFC\FastFoodWebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\OneDrive\Documents\CSE 443\KFC\443Final\KFC\FastFoodWebApplication
+build_property.MSBuildProjectDirectory = D:\DONET\443Final\KFC\FastFoodWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Lockout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Error.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/AccessDenied.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/Login.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/Logout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/ManageRole.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/ManageRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNYW5hZ2VSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/Register.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/UpdateRoleResult.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/UpdateRoleResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVSb2xlUmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Account/_RoleForm.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Account/_RoleForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfUm9sZUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Carts/Delete.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Carts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Carts/Details.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Carts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Carts/Edit.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Carts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Carts/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Dishes/Create.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Dishes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Dishes/Delete.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Dishes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Dishes/Details.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Dishes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Dishes/Edit.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Dishes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Dishes/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Dishes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Create.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFR5cGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Delete.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFR5cGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Details.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFR5cGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Edit.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFR5cGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/DishTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFR5cGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Home/AboutUs.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Home/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Home/Privacy.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Menu/Details.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Menu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Menu/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/Checkout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/ManageOrder.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/ManageOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE1hbmFnZU9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/Report.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/Report.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFJlcG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewChart.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewChart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdDaGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewOrderDetail.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewOrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewOrderDetailManager.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Orders/ViewOrderDetailManager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdPcmRlckRldGFpbE1hbmFnZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/Error.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_DishTypesPartial.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_DishTypesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EaXNoVHlwZXNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_HeadPartial.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_LoginPartial.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_MenuNav.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_MenuNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51TmF2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Create.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Delete.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Details.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Edit.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Index.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Vouchers/ListVouchers.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Vouchers/ListVouchers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlcnNcTGlzdFZvdWNoZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/_ViewImports.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/_ViewStart.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/OneDrive/Documents/CSE 443/KFC/443Final/KFC/FastFoodWebApplication/Views/Shared/_Layout.cshtml]
+[D:/DONET/443Final/KFC/FastFoodWebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aq7kfzauee
