@@ -6,14 +6,14 @@ $textCol: #1f1f1f;
 
 // import fonts -  font-family: 'Open Sans', sans-serif and  font-family: 'Dancing Script', cursive;
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @mixin main-font {
-  font-family: "Open Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 @mixin second-font {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -187,7 +187,6 @@ a:focus {
     .nav-item {
       .nav-link {
         padding: 5px 20px;
-        color: $white;
         text-align: center;
         text-transform: uppercase;
         border-radius: 5px;

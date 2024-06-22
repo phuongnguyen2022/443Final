@@ -1,15 +1,22 @@
-﻿using KFCApplication.Models;
+﻿using KFCApplication.Data;
+using KFCApplication.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Text.Encodings.Web;
 using System.Text;
+
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using KFCApplication.Areas.Identity.Pages.Account;
+using KFCApplication.Models;
 using System.Threading.Tasks;
 using System.Threading;
 using System;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using KFCApplication.Areas.Identity.Pages.Account;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -17,7 +24,7 @@ using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
-using KFCApplication.Data;
+
 namespace KFCApplication.Controllers
 {
     public class AccountController : Controller
@@ -213,12 +220,14 @@ namespace KFCApplication.Controllers
                 }
 
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return Json(new { success = true });
             }
 
-            return View(profile);
+            //return View(profile);
+            return Json(new { success = false });
         }
-
+        //[Authorize(Roles ="admin")]
         public IActionResult ManageRole([FromServices] KFCApplicationContext context)
         {
             var users = context.Users.Include(x =>x.Profile).ToList();

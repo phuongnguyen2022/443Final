@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Drawing;
-using KFCApplication.Models;
 
 namespace KFCApplication.Models
 {

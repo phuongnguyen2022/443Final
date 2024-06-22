@@ -32,12 +32,12 @@
                 <div class="CardInner">
                     <div class="container">
                         <form method="get" action="@Url.Action("Index", "Menu")">
-                            <div class="row">
+                            <div class="row" style="margin-top: 50px">
                                 <div class="col-2 Icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#657789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
                                 </div>
                                 <div class="col-9    InputContainer">
-                                    <input type="text" name="searchString" value="@ViewData["searchString"]" class="btn btn-default" placeholder="It just can't be pizza..." />
+                                    <input type="text" name="searchString" value="@ViewData["searchString"]" class="btn btn-default" placeholder="Searching..." />
                                 </div>
                             </div>
                         </form>
@@ -56,9 +56,8 @@
                         </a>
                     </div>
                     <div class="dropdown-content">
-
-                        <a href="@Url.Action("Index", new { sortOrder = ViewBag.PriceSortParam })" style="display: flex; align-items: center; padding: 5px; margin: 5px">
-                            <span style="font-size: 18px;padding: 5px;">Price</span>
+                        <a href="@Url.Action("Index", new { sortOrder = ViewBag.PriceSortParam })" style="display: flex; align-items: center; padding: 10px; margin: 5px">
+                            <span style="font-size: 18px;padding: 7px;">Price</span>
                             <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">< - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M137.4 41.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8H32c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128zm0 429.3l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0z" /></svg>
                         </a>
 

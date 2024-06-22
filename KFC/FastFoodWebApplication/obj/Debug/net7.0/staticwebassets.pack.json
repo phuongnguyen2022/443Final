@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FastFoodWebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FastFoodWebApplication.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0.jpg",
+      "PackagePath": "staticwebassets\\images\\0.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\02c1c0e7-7637-492a-801a-b3c07b5a2754.jpg",
+      "PackagePath": "staticwebassets\\images\\02c1c0e7-7637-492a-801a-b3c07b5a2754.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\08e5242e-136b-4189-8639-b07800d5db35.jpg",
+      "PackagePath": "staticwebassets\\images\\08e5242e-136b-4189-8639-b07800d5db35.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0b14076e-6d91-4ae6-b29d-517a002ba72b.jpg",
+      "PackagePath": "staticwebassets\\images\\0b14076e-6d91-4ae6-b29d-517a002ba72b.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\0ede683e-78a7-4647-b59c-f444b3c4bf92.jpg",
+      "PackagePath": "staticwebassets\\images\\0ede683e-78a7-4647-b59c-f444b3c4bf92.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\1b2446d3-8fec-4fc7-8a3a-27291307c03d.jpg",
+      "PackagePath": "staticwebassets\\images\\1b2446d3-8fec-4fc7-8a3a-27291307c03d.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\1c25914a-16ca-472a-b048-ac57ea44ae62.jpg",
+      "PackagePath": "staticwebassets\\images\\1c25914a-16ca-472a-b048-ac57ea44ae62.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2014629b-bf84-42c9-afba-9a72b0d362dc.jpg",
+      "PackagePath": "staticwebassets\\images\\2014629b-bf84-42c9-afba-9a72b0d362dc.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\2a10f3e5-b58a-412a-93a6-0b8b4db101d2.jpg",
+      "PackagePath": "staticwebassets\\images\\2a10f3e5-b58a-412a-93a6-0b8b4db101d2.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg",
+      "PackagePath": "staticwebassets\\images\\34d676c3-8ecf-48ba-acd2-4d3334ee7b3f.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\3baa8b57-6271-4c63-a7b3-6083d921a535.jpg",
+      "PackagePath": "staticwebassets\\images\\3baa8b57-6271-4c63-a7b3-6083d921a535.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg",
+      "PackagePath": "staticwebassets\\images\\4bd9dcab-c418-450e-abf2-22c5f6af37c9.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\61a89cff-3c5f-4fc9-934d-382f5b454e20.jpg",
+      "PackagePath": "staticwebassets\\images\\61a89cff-3c5f-4fc9-934d-382f5b454e20.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\70b2291b-d7f9-4edc-b281-d89c9d6e6766.jpg",
+      "PackagePath": "staticwebassets\\images\\70b2291b-d7f9-4edc-b281-d89c9d6e6766.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\84ba7501-dc55-4743-b4db-4dd10a5127ed.jpg",
+      "PackagePath": "staticwebassets\\images\\84ba7501-dc55-4743-b4db-4dd10a5127ed.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\88696e41-101b-4712-8ece-da28bc70fc61.jpg",
+      "PackagePath": "staticwebassets\\images\\88696e41-101b-4712-8ece-da28bc70fc61.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\8cb35e8a-481d-4b42-b458-b3f55394ff52.jpg",
+      "PackagePath": "staticwebassets\\images\\8cb35e8a-481d-4b42-b458-b3f55394ff52.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\92b0e4fd-631e-4cfc-9c7f-e24404ca566f.jpg",
+      "PackagePath": "staticwebassets\\images\\92b0e4fd-631e-4cfc-9c7f-e24404ca566f.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\92cd670b-fbc9-446d-b6ef-22fea9829e51.jpg",
+      "PackagePath": "staticwebassets\\images\\92cd670b-fbc9-446d-b6ef-22fea9829e51.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9534f1c4-6edc-4982-9ef3-13443f6e0229.jpg",
+      "PackagePath": "staticwebassets\\images\\9534f1c4-6edc-4982-9ef3-13443f6e0229.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\98a705e5-9e3e-49a9-88af-f8a07e179abd.jpg",
+      "PackagePath": "staticwebassets\\images\\98a705e5-9e3e-49a9-88af-f8a07e179abd.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9b7b5d55-319b-45bb-b020-81e5f2c2a736.jpg",
+      "PackagePath": "staticwebassets\\images\\9b7b5d55-319b-45bb-b020-81e5f2c2a736.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9c4e86a3-9d60-40a2-9997-1039ed800dfa.jpg",
+      "PackagePath": "staticwebassets\\images\\9c4e86a3-9d60-40a2-9997-1039ed800dfa.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\9f6b559c-01bb-4832-8efe-a469a41d8188.jpg",
+      "PackagePath": "staticwebassets\\images\\9f6b559c-01bb-4832-8efe-a469a41d8188.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a0f3f11b-8e3a-4451-8652-f0e1d71bd5b6.jpg",
+      "PackagePath": "staticwebassets\\images\\a0f3f11b-8e3a-4451-8652-f0e1d71bd5b6.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a57c4f36-b569-4e7b-803a-281b64617c8c.jpg",
+      "PackagePath": "staticwebassets\\images\\a57c4f36-b569-4e7b-803a-281b64617c8c.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a6f21b2c-456f-4fde-b569-e4dd73ce038e.jpg",
+      "PackagePath": "staticwebassets\\images\\a6f21b2c-456f-4fde-b569-e4dd73ce038e.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a72bdaee-8ba8-47f6-9493-931794d5de41.jpg",
+      "PackagePath": "staticwebassets\\images\\a72bdaee-8ba8-47f6-9493-931794d5de41.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\a936d8bc-7620-4616-b311-dad3e5270718.jpg",
+      "PackagePath": "staticwebassets\\images\\a936d8bc-7620-4616-b311-dad3e5270718.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\add-to-cart.png",
+      "PackagePath": "staticwebassets\\images\\add-to-cart.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\avt.jpg",
+      "PackagePath": "staticwebassets\\images\\avt.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\b31f5e86-ff33-4e7a-b79b-062870c3f32b.jpg",
+      "PackagePath": "staticwebassets\\images\\b31f5e86-ff33-4e7a-b79b-062870c3f32b.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\b78c5362-f14e-40a4-bea7-1849bc56180e.jpg",
+      "PackagePath": "staticwebassets\\images\\b78c5362-f14e-40a4-bea7-1849bc56180e.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\bad58a74-f29b-4b9f-89cd-ccb768d11ddc.jpg",
+      "PackagePath": "staticwebassets\\images\\bad58a74-f29b-4b9f-89cd-ccb768d11ddc.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\basket.png",
+      "PackagePath": "staticwebassets\\images\\basket.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\caret-down.png",
+      "PackagePath": "staticwebassets\\images\\caret-down.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\images\\client1.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\images\\client2.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\detail.png",
+      "PackagePath": "staticwebassets\\images\\detail.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\diskette.png",
+      "PackagePath": "staticwebassets\\images\\diskette.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\edit-text.png",
+      "PackagePath": "staticwebassets\\images\\edit-text.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\editing.png",
+      "PackagePath": "staticwebassets\\images\\editing.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\f24d9e59-87ad-4a23-ae93-56d4458a3fbc.jpg",
+      "PackagePath": "staticwebassets\\images\\f24d9e59-87ad-4a23-ae93-56d4458a3fbc.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\gift.png",
+      "PackagePath": "staticwebassets\\images\\gift.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\kfc-cart.png",
+      "PackagePath": "staticwebassets\\images\\kfc-cart.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\kfc-feast-meal-lkce3tliv4ztigrj.jpg",
+      "PackagePath": "staticwebassets\\images\\kfc-feast-meal-lkce3tliv4ztigrj.jpg"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\register.png",
+      "PackagePath": "staticwebassets\\images\\register.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\trash.png",
+      "PackagePath": "staticwebassets\\images\\trash.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\images\\voucher.png",
+      "PackagePath": "staticwebassets\\images\\voucher.png"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DONET\\443Final\\KFC\\FastFoodWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FastFoodWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FastFoodWebApplication.props",
+      "PackagePath": "build\\FastFoodWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FastFoodWebApplication.props",
+      "PackagePath": "buildMultiTargeting\\FastFoodWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FastFoodWebApplication.props",
+      "PackagePath": "buildTransitive\\FastFoodWebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

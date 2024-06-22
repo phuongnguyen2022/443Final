@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +11,11 @@ using Microsoft.AspNetCore.Http;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Authorization;
+using System.Globalization;
 
 namespace KFCApplication.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "admin")]
     public class DishesController : Controller
     {
         private readonly KFCApplicationContext _context;
@@ -26,7 +28,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: Dishes
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index(int? dishTypeid, string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             ViewData["CurrentSort"] = sortOrder;
@@ -80,10 +82,12 @@ namespace KFCApplication.Controllers
             var pageSize = 3;
             var model = await PaginatedList<Dish>.CreateAsync(dishes, pageNumber ?? 1, pageSize);
             return View(model);
+            //var KFCApplicationContext = _context.Dish.Include(d => d.DishType);
+            //return View(await KFCApplicationContext.ToListAsync());
         }
 
         // GET: Dishes/Details/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Dish == null)
@@ -103,7 +107,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: Dishes/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             ViewData["DishTypeId"] = new SelectList(_context.Set<DishType>(), nameof(DishType.Id), nameof(DishType.Name));
@@ -115,7 +119,7 @@ namespace KFCApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("DishId,Name,DishSize,Description,DishStatus,DishTypeId,DishPrice,DishImage")]
         Dish dish, IFormFile image)
         {
@@ -144,7 +148,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: Dishes/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Dish == null)
@@ -166,7 +170,7 @@ namespace KFCApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("DishId,Name,DishSize,Description,DishStatus,DishTypeId,DishPrice,DishImage")]
         Dish dish, IFormFile image)
         {
@@ -223,7 +227,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: Dishes/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Dish == null)
@@ -245,7 +249,7 @@ namespace KFCApplication.Controllers
         // POST: Dishes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Dish == null)

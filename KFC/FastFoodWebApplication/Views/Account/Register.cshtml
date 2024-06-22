@@ -8,8 +8,7 @@
 <h1 style="margin-left: 100px">@ViewData["Title"]</h1>
 
 <div class="row" style="margin-left: 100px">
-    <div class="col-md-3"></div>
-    <div class="col-md-6" style="border=1px">
+    <div class="col-md-4">
         <form id="registerForm" asp-route-returnUrl="@ViewBag.ReturnUrl" method="post">
             <h2>Create a new account.</h2>
             <hr />
@@ -32,7 +31,6 @@
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
     </div>
-    <div class="col-md-3"></div>
 </div>
 
 @* @section Scripts {

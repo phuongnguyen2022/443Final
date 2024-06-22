@@ -4,7 +4,7 @@
 @await Html.PartialAsync("_HeadPartial")
 
 
-<header>
+<header >
     <h1 style="margin-left: 100px">@ViewData["Title"]</h1>
     @{
         if (User.Identity?.IsAuthenticated ?? false)

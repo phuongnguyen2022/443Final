@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace KFCApplication.Migrations
+namespace FastFoodWebApplication.Migrations
 {
     [DbContext(typeof(KFCApplicationContext))]
     partial class KFCApplicationContextModelSnapshot : ModelSnapshot

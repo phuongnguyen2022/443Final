@@ -39,6 +39,8 @@ namespace KFCApplication.Controllers
             {
                 return RedirectToAction("Login", "Account");
             }
+
+
         }
 
         // GET: Carts/Details/5
