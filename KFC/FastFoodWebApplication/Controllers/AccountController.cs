@@ -218,7 +218,7 @@ namespace KFCApplication.Controllers
 
             return View(profile);
         }
-        //[Authorize(Roles ="admin")]
+
         public IActionResult ManageRole([FromServices] KFCApplicationContext context)
         {
             var users = context.Users.Include(x =>x.Profile).ToList();

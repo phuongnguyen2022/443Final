@@ -18,26 +18,18 @@
 </head>
 <div class="container-fluid">
     <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-red">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <span class="fs-5 d-none d-sm-inline">Menu</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
+                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 ">
+                            <i class="fs-4 bi-table">
+                                <span class="d-none d-sm-inline text-white">Daily Report</span>
                         </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-blue">Report Sale</span>  </a>
-                            </li>
-                        </ul>
                     </li>
-
                     <li>
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
@@ -88,10 +80,10 @@
                         </div>
                     </div>
                 </form>
-                <br >
-                <br >
+                <br>
+                <br>
             </div>
-           
+
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -200,34 +192,34 @@
 
     /* Other styles*/
     /*  body {
-                    color: #fff;
-                    background: var(--background-gradient);
-                } */
+                        color: #fff;
+                        background: var(--background-gradient);
+                    } */
 
     /* a {
-                    font-weight: bold;
-                    color: var(--gray);
-                    text-decoration: drop-shadow;
-                    padding: .25em;
-                    border-radius: .50em;
-                    background: pink;
-                } */
+                        font-weight: bold;
+                        color: var(--gray);
+                        text-decoration: drop-shadow;
+                        padding: .25em;
+                        border-radius: .50em;
+                        background: pink;
+                    } */
 
     /* 가운데정렬 - position,transform*/
     /*   .container {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%,-50%);
-                } */
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    } */
 
     /* 가운데정렬 - flexbox*/
     /* 근데 이건 1행 정렬이된다. */
     /* .container {
-                  display: flex;
-                  justify-content: center;
-                  align-items: absolute;
-                } */
+                      display: flex;
+                      justify-content: center;
+                      align-items: absolute;
+                    } */
 
     .down_note {
         display: flex;

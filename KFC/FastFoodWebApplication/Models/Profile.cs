@@ -8,11 +8,11 @@ namespace KFCApplication.Models
 {
     public enum Gender
     {
-        Male, Female, Other
+        Male, Female
     }
     public enum Nationality
     {
-        VietNamese, ThaiLand, England, American, Australian
+        VietNamese, England, American, Australian
     }
     public class Profile
     {

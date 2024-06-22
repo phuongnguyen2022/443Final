@@ -30,7 +30,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: DishTypes/Details/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.DishType == null)
@@ -49,7 +49,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: DishTypes/Create
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +60,7 @@ namespace KFCApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("Id,Name")] DishType dishType)
         {
             if (ModelState.IsValid)
@@ -73,7 +73,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: DishTypes/Edit/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.DishType == null)
@@ -94,7 +94,7 @@ namespace KFCApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] DishType dishType)
         {
             if (id != dishType.Id)
@@ -126,7 +126,7 @@ namespace KFCApplication.Controllers
         }
 
         // GET: DishTypes/Delete/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.DishType == null)
@@ -147,7 +147,7 @@ namespace KFCApplication.Controllers
         // POST: DishTypes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.DishType == null)

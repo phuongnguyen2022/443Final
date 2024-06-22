@@ -1,8 +1,8 @@
 ﻿
 <div class="col-md-12">
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-2">
             <div>All Users</div>
             @foreach (AppUser user in ViewBag.Users)
             {
@@ -18,8 +18,8 @@
             } 
         </div>
 
-        <div class="col-md-5" style="margin-top:20px;">
-            <div id="loading" style="display:none">....................</div>
+        <div class="col-md-3" style="margin-top:20px;">
+            <div id="loading" style="display:none"></div>
             @using (Html.AjaxBeginForm(new AjaxOptions
                 {
                     HttpMethod = "post",
@@ -36,7 +36,7 @@
 
             <div id="result"></div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3"></div>
     </div>
 </div>
 
