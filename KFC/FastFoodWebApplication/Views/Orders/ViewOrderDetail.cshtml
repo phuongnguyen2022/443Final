@@ -130,7 +130,7 @@
                         </div>
 
                         <div class="d-flex justify-content-between pt-2">
-                            <p class="fw-bold mb-0">Discount</p>
+                            <p class="fw-bold mb-0">Voucher Discount</p>
                             @{
                                 var subTotalPriceDis = string.Format(new CultureInfo("vi-VN"), "{0:C}", discountedPrice );
 
@@ -155,6 +155,7 @@
                             Total
                                 paid: <span class="h2 mb-0 ms-2">@totalDiscount</span>
                         </h5>
+                        <h6 style="color: white; text-align: right;">(This Price included membership discount!)</h6>
                     </div>
                 </div>
             </div>

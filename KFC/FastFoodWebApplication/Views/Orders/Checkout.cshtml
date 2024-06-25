@@ -49,11 +49,14 @@
                                         <br> <span class='thin small'>Size: @item.size<br></span>
                                         <span class='thin small'>Quantity:@item.Quantity<br></span>
                                     </td>
-                                </tr>
-                                <tr>
                                     <td>
                                         <div class='price'>@price</div>
                                     </td>
+                                </tr>
+                                <tr>
+                                    @* <td>
+                                        <div class='price'>@price</div>
+                                    </td> *@
                                 </tr>
                             </tbody>
                         </table>
@@ -79,26 +82,26 @@
                         <div class='thin dense' id="membership">-@discount</div>
                         <div class='thin dense' id='selectedVoucher'>None</div>
                         <div class='thin dense'>0</div>
-                        <div class='thin dense' id="subTotal">@subPrice</div>
+                        <div class='thin dense' id="subTotal" style="font-weight:600">@subPrice</div>
                     </span>
                 </div>
             </div>
         </div>
-        <div class='credit-info'>
-            <div class='credit-info-content'>
+        <div class='credit-info' >
+            <div class='credit-info-content' style="justify-self: top">
                 <form method="post" asp-action="PlaceOrder" asp-controller="Orders">
                     <table class='half-input-table'>
                         <tr>
                             <td>Name</td>
-                            <td><input class='input-field' name="name"></input></td>
+                            <td><input class='input-field' name="name" required></input></td>
                         </tr>
                         <tr>
                             <td>Address</td>
-                            <td><input class='input-field' name="address"></input></td>
+                            <td><input class='input-field' name="address" required></input></td>
                         </tr>
                         <tr>
                             <td>Phone number</td>
-                            <td><input class='input-field' name="phone" type="number"></input></td>
+                            <td><input class='input-field' name="phone" type="number" required></input></td>
                         </tr>
                         <tr>
                             <td>Vouchers</td>
@@ -114,7 +117,8 @@
                         </tr>
                     </table>
                     <input type="hidden" name="discountMember" value="@ViewBag.memberShip"></input>
-                    <button class='pay-btn'>Checkout</button>
+                    <button class='pay-btn'>COD Checkout</button>
+                    <button asp-action="Payment" class='pay-btn'>Checkout with VNPAY</button>
                 </form>
             </div>
         </div>
@@ -125,20 +129,24 @@
     <script>
         function changePrice() {
             var selectedVoucherCode = $("select[name='voucherCode']").val();
-            console.log(selectedVoucherCode);
             var parts = selectedVoucherCode.split('-');
-            var part1 = parts[0];
-            console.log(part1);
-            var voucherAmount = parseFloat(part1);
-            var discount = parseFloat('@ViewBag.membership');
-            console.log(discount);
+            var voucherAmount = parseFloat(parts[0]);
+            var membershipDiscount = parseFloat('@ViewBag.membership');
             var initialTotalPrice = parseFloat('@ViewBag.subTotal');
-            console.log(initialTotalPrice);
-            var discountedPrice = initialTotalPrice - (initialTotalPrice * voucherAmount / 100);
-            console.log(discountedPrice);
+
+            // Subtract the membership discount from the initial total price
+            var priceAfterMembershipDiscount = initialTotalPrice - membershipDiscount;
+
+            // Apply the voucher discount
+            var discountedPrice = priceAfterMembershipDiscount - (priceAfterMembershipDiscount * voucherAmount / 100);
+
+            // Format the discounted price
             var formatDiscountedPrice = discountedPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
-            var totalVoucherDiscount = initialTotalPrice - discountedPrice;
-            console.log(totalVoucherDiscount);
+
+            // Calculate the total voucher discount
+            var totalVoucherDiscount = priceAfterMembershipDiscount - discountedPrice;
+
+            // Update the displayed prices
             $("#subTotal").html(formatDiscountedPrice);
             if (voucherAmount != 0) {
                 var formattedTotalVoucherDiscount = totalVoucherDiscount.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
@@ -146,6 +154,10 @@
             } else {
                 $("#selectedVoucher").text("0");
             }
+
+            // Update the membership discount display
+            var formattedMembershipDiscount = membershipDiscount.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+            $("#membership").text("-" + formattedMembershipDiscount);
         }
 
         $(document).on('change', "select[name='voucherCode']", function () {
@@ -158,6 +170,7 @@
             changePrice();
         });
     </script>
+
 }
 
 <style>
@@ -242,7 +255,7 @@
 
     .window {
         height: 540px;
-        width: 800px;
+        width: 1000px;
         background: #ffffff; /* KFC Theme */
         display: flex;
         box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
@@ -252,7 +265,7 @@
 
     .order-info {
         height: 100%;
-        width: 50%;
+        width: 70%;
         padding-left: 25px;
         padding-right: 25px;
         box-sizing: border-box;
@@ -265,7 +278,7 @@
     .credit-info {
         background: #e2e2e2; /* KFC Theme */
         height: 100%;
-        width: 50%;
+        width: 30%;
         color: #000000; /* KFC Theme */
         display: flex;
         justify-content: center;
@@ -394,12 +407,13 @@
         vertical-align: top;
     }
 
+
     .price {
         text-align: right;
+        margin-top: 20px;
         width: 100%;
         display: block;
-        color: red; /* KFC Theme */
-        font-weight: 800;
+        font-weight: 500;
     }
 
     .order-table img {
@@ -412,7 +426,7 @@
 
     body {
         background: #f7f7f7;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Gill Sans', sans-serif;
         font-weight: 400;
         font-size: 14px;
         font-size: .95rem;
