@@ -3,6 +3,8 @@
 @{
     var shippingStaus = new[] { new { Value = "Pending", Text = "Pending" },
     new { Value = "Processing", Text = "Processing" }, new { Value = "Delivering", Text = "Delivering" }, new { Value = "Completed", Text = "Completed" } };
+
+    var sortedModel = Model.OrderByDescending(order => order.OderDate);
 }
 
 <div class="container-fluid">
@@ -24,7 +26,7 @@
                     </li>
                     <li>
                         <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0">
-                           <span class="d-none d-sm-inline text-blue">Orders</span>
+                            <span class="d-none d-sm-inline text-blue">Orders</span>
                         </a>
                     </li>
                     <li>
@@ -45,10 +47,10 @@
                         <div class="col col-2 th">Total</div>
                         <div class="col col-3 th">Order Date</div>
                         <div class="col col-2 th">Shipping Status</div>
-                        <div class="col col-1 th"></div>
+                        <div class="col col-1 th">Action</div>
 
                     </li>
-                    @foreach (var item in Model)
+                    @foreach (var item in sortedModel)
                     {
                         var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", item.TotalPrice);
                         <li class="table-row">
@@ -60,11 +62,11 @@
                                 @{
                                     var selectList = new SelectList(shippingStaus, "Value", "Text", item.shipping_status);
                                 }
-                                <select asp-items="selectList" onchange="changeShippingStatus(@item.Id, this)" class="justi"></select>
+                                <select asp-items="selectList" onchange="changeShippingStatus(@item.Id, this)" class="justi" style="border-radius: 8px;"></select>
                             </div>
                             <div class="col col-1" style="margin-left: -10px;">
                                 <a class="button4" asp-action="ViewOrderDetailManager" asp-controller="Orders" asp-route-orderId="@item.Id">
-                                    View
+                                    <img src="/images/detailicon2.png" style="width: 30px; height:30px;"> </img>
                                 </a>
                             </div>
                         </li>
@@ -78,8 +80,17 @@
 
 <style>
     /*  body {
-                  font-family: 'lato', sans-serif;
-                } */
+                      font-family: 'lato', sans-serif;
+                    } */
+
+    .bg-dark {
+        background-color: darkred !important;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/54/KFC_logo.svg/1200px-KFC_logo.svg.png') !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
     .container {
         max-width: 100%;
         margin-left: auto;
@@ -117,7 +128,8 @@
     }
 
     .table-header {
-        background-color: #95A5A6;
+        background-color: darkred;
+        color: white;
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 0.03em;

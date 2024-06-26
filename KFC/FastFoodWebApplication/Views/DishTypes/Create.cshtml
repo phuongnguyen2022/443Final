@@ -8,8 +8,8 @@
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                <a asp-action="Index" asp-controller="Dishes" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">MANAGEMENT</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
@@ -61,6 +61,17 @@
         </div>
     </div>
 </div>
+
+<style>
+
+    .bg-dark {
+        background-color: darkred !important;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/54/KFC_logo.svg/1200px-KFC_logo.svg.png') !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+</style>
 
 
 @section Scripts {

@@ -9,8 +9,8 @@
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                <a asp-action="Index" asp-controller="Dishes" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">MANAGEMENT</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
@@ -60,19 +60,12 @@
             <div class="container">
                 <ul class="responsive-table">
                     <li class="table-header">
-
-
                         <div class="col col-2 th">Code</div>
                         <div class="col col-2 th">Name</div>
-                        <div class="col col-3 th">Description</div>
+                        <div class="col col-2 th">Description</div>
                         <div class="col col-1 th">Amount</div>
                         <div class="col col-1 th">Quantity</div>
-                        <div class="col col-1 th"></div>
-                        <div class="col col-1 th"></div>
-                        <div class="col col-1 th"></div>
-
-
-
+                        <div class="col col-2 th">Action</div>
 
                     </li>
                     @foreach (var item in Model)
@@ -81,15 +74,15 @@
                         <li class="table-row">
                             <div class="col col-2" data-label="Job Id">@item.Code</div>
                             <div class="col col-2" data-label="Customer Name">@item.Name</div>
-                            <div class="col col-3">@item.Description</div>
+                            <div class="col col-2">@item.Description</div>
                             <div class="col col-1">@item.Amount</div>
                             <div class="col col-1">@item.Quantity</div>
 
-                            <div class="col col-1"><a asp-action="Edit" asp-route-id="@item.ID"><img src="/images/editing.png"></img></a>  </div>
-                            <div class="col col-1"><a asp-action="Details" asp-route-id="@item.ID"> <img src="/images/detail.png"></img></a> </div>
-                            <div class="col col-1"><a asp-action="Delete" asp-route-id="@item.ID"><img src="~/images/trash.png"> </img></a></div>
-
-
+                            <div class="col col-2">
+                                <a asp-action="Edit" asp-route-id="@item.ID"><img src="/images/editicon.png" style="width: 23px; height:23px;"></img></a>
+                                <a asp-action="Details" asp-route-id="@item.ID"> <img src="/images/detailicon2.png" style="width: 25px; height:25px;"></img></a>
+                                <a asp-action="Delete" asp-route-id="@item.ID"><img src="~/images/deleteicon.png" style="width: 23px; height:23px;"> </img></a>
+                            </div>
 
 
                         </li>
@@ -105,6 +98,14 @@
     /*  body {
                       font-family: 'lato', sans-serif;
                     } */
+
+    .bg-dark {
+        background-color: darkred !important;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/54/KFC_logo.svg/1200px-KFC_logo.svg.png') !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
     .container {
         max-width: 100%;
         margin-left: auto;
@@ -172,7 +173,8 @@
     }
 
     .table-header {
-        background-color: #95A5A6;
+        background-color: darkred;
+        color: white;
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 0.03em;

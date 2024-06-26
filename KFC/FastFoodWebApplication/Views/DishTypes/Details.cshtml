@@ -10,44 +10,27 @@
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                <a asp-action="Index" asp-controller="Dishes" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">MANAGEMENT</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
-                        </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Report Sale</span>  </a>
-                            </li>
-                        </ul>
+                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
+                    </li>
+                    <li class="w-100">
+                        <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Dishes</span>  </a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
-                        </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Dishes</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
-                            </li>
-                        </ul>
+                        <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-blue">Dish Type</span>  </a>
                     </li>
                     <li>
-                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Orders</span>
+                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-white">Orders</span>
                         </a>
                     </li>
                     <li>
-                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Vouchers</span>
+                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-white">Vouchers</span>
                         </a>
                     </li>
                 </ul>
@@ -77,3 +60,12 @@
     </div>
 </div>
 
+<style>
+    .bg-dark {
+        background-color: darkred !important;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/54/KFC_logo.svg/1200px-KFC_logo.svg.png') !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+</style>
