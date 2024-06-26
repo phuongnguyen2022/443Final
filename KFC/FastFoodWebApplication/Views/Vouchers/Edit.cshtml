@@ -5,57 +5,38 @@
 }
 
 
-
-
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a asp-action="Index" asp-controller="Menu" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                <a asp-action="Index" asp-controller="Dishes" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">MANAGEMENT</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Dashboard <img src="/images/caret-down.png" style="width:10px;"></img></span>
-                        </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Report" asp-controller="Orders" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Report Sale</span>  </a>
-                            </li>
-                        </ul>
+                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
+                    </li>
+                    <li class="w-100">
+                        <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Dishes</span>  </a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
-                        </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Dishes</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
-                            </li>
-                        </ul>
+                        <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
                     </li>
                     <li>
-                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Orders</span>
+                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-white">Orders</span>
                         </a>
                     </li>
                     <li>
-                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-blue">Vouchers</span>
+                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-blue">Vouchers</span>
                         </a>
                     </li>
                 </ul>
                 <hr>
             </div>
         </div>
-        <div class="col py-3">
+        @* <div class="col py-3">
             <h1 >Edit</h1>
             <h4 >Voucher</h4>
             <hr/>
@@ -95,6 +76,58 @@
                     </form>
                 </div>
             </div>
+ *@
+            <div class="col py-3">
+                <div class="container-fluid px-1 py-5 mx-auto" style="margin-top:-80px; max-width: 900px;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-12 text-center">
+                            <div class="card">
+                                <h5 class="text-center mb-4">UPDATE VOUCHER</h5>
+                                <form class="form-card" asp-action="Edit" asp-controller="Vouchers" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+                                    <input type="hidden" asp-for="ID" />
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-md-6 flex-column d-flex">
+                                            <label class="form-control-label px-3">Code<span class="text-danger"> *</span></label>
+                                            <input asp-for="Code" class="form-control" />
+                                            <span asp-validation-for="Code" class="text-danger"></span>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-md-6 flex-column d-flex">
+                                            <label class="form-control-label px-3">Name<span class="text-danger"> *</span></label>
+                                            <input asp-for="Name" class="form-control"/>
+                                            <span asp-validation-for="Name" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group col-md-6 flex-column d-flex">
+                                            <label class="form-control-label px-3">Description<span class="text-danger"> *</span></label>
+                                            <input asp-for="Description" class="form-control"/>
+                                            <span asp-validation-for="Description" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-between text-left">
+                                        <div class="form-group col-md-6 flex-column d-flex">
+                                            <label class="form-control-label px-3">Amount<span class="text-danger"> *</span></label>
+                                            <input asp-for="Amount" class="form-control"/>
+                                            <span asp-validation-for="Amount" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group col-md-6 flex-column d-flex">
+                                            <label class="form-control-label px-3">Quantity<span class="text-danger"> *</span></label>
+                                            <input asp-for="Quantity" class="form-control" />
+                                            <span asp-validation-for="Quantity" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-end">
+                                        <div class="form-group col-md-3" style="margin-left:auto">
+                                            <input type="submit" value="Save" class="btn btn-primary btn-block" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             <div>
                 <a asp-action="Index">Back to List</a>
@@ -105,6 +138,79 @@
     </div>
 </div>
 
+<style>
+
+    .bg-dark {
+        background-color: darkred !important;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/54/KFC_logo.svg/1200px-KFC_logo.svg.png') !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+    .card {
+        padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+        max-width: 100%;
+    }
+
+    .blue-text {
+        color: #00BCD4;
+    }
+
+    .form-control-label {
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-weight: 800;
+    }
+
+    input, textarea, button {
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+
+        input:focus, textarea:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            border: 1px solid #00BCD4;
+            outline-width: 0;
+            font-weight: 400;
+        }
+
+    .btn-block {
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer;
+    }
+
+        .btn-block:hover {
+            color: #fff !important;
+        }
+
+    button:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0;
+    }
+
+    .btn-primary {
+        background-color: black;
+    }
+</style>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
