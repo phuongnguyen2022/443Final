@@ -52,31 +52,22 @@
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li>
-                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 ">
-                            <i class="fs-4 bi-speedometer2"><span class="d-none d-sm-inline text-white">Daily Report</span>
+                        <a asp-action="ViewChart" asp-controller="Orders" class="nav-link px-0 "> <span class="d-none d-sm-inline text-white">Daily Report</span>  </a>
+                    </li>
+                    <li class="w-100">
+                        <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-blue">Dishes</span>  </a>
+                    </li>
+                    <li>
+                        <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
+                    </li>
+                    <li>
+                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-white">Orders</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline text-white">Tables <img src="/images/caret-down.png" style="width:10px;"></img></span>
-                        </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a asp-action="Index" asp-controller="Dishes" class="nav-link px-0 "> <span class="d-none d-sm-inline text-blue">Dishes</span>  </a>
-                            </li>
-                            <li>
-                                <a asp-action="Index" asp-controller="DishTypes" class="nav-link px-0"> <span class="d-none d-sm-inline text-white">Dish Type</span>  </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a asp-action="ManageOrder" asp-controller="Orders" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Orders</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Vouchers</span>
+                        <a asp-action="Index" asp-controller="Vouchers" class="nav-link px-0">
+                            <span class="d-none d-sm-inline text-white">Vouchers</span>
                         </a>
                     </li>
                 </ul>
@@ -91,11 +82,11 @@
                             <h5 class="text-center mb-4">ADD NEW DISH</h5>
                             <form class="form-card" asp-action="Create" enctype="multipart/form-data" method="post">
                                 <div class="row justify-content-between text-left">
-                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" asp-for="Name" placeholder="Enter your name" onblur="validate(1)"> </div>
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Name<span class="text-danger"> *</span></label> <input type="text" id="fname" asp-for="Name" placeholder="Enter dish name" onblur="validate(1)"> </div>
                                     <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Price<span class="text-danger"> *</span></label> <input type="text" id="lname" asp-for="DishPrice" placeholder="Enter price" onblur="validate(2)"> </div>
                                 </div>
                                 <div class="row justify-content-between text-left">
-                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish type<span class="text-danger"> *</span></label>   <select style=" padding:9px 15px;margin: 5px 0px;" asp-for="DishTypeId" id="lname" class="form-control" asp-items="ViewBag.DishTypeId"></select> </div>
+                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Type<span class="text-danger"> *</span></label>   <select style=" padding:9px 15px;margin: 5px 0px;" asp-for="DishTypeId" id="lname" class="form-control" asp-items="ViewBag.DishTypeId"></select> </div>
                                     <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Status<span class="text-danger"> *</span></label> <input type="text" id="mob" asp-for="DishStatus" placeholder="" onblur="validate(4)" value="1" readonly> </div>
                                 </div>
                                 <div class="row justify-content-between text-left">

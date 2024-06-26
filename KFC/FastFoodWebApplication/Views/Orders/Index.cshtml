@@ -8,30 +8,35 @@
     shippingStatus.Add("Completed");
     string act = ViewData["act"] as string;
     List<Order> orders = ViewData["order"] as List<Order>;
+    if (orders != null)
+    {
+        orders = orders.OrderByDescending(o => o.OderDate).ToList();
+    }
+    
 }
 
 <div class="container eee">
     <div class="card">
         <div class="row d-flex justify-content-between px-3 top">
             @{
-                for(int i = 0; i < shippingStatus.Count; i++)
+                for (int i = 0; i < shippingStatus.Count; i++)
                 {
                     <div class="col-2">
                         <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="@shippingStatus[i]"><p class="font-weight-bold @((shippingStatus[i].Equals(act)) ? "act" : "") ">@shippingStatus[i]</p></a>
                     </div>
                 }
             }
-               
-               @*  <div class="col-2">
-                <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Processing</p></a>
-                </div>
-                <div class="col-2">
-                <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Delivering</p></a>
-                </div>
-                <div class="col-2">
-                <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Completed</p></a>
-                </div> *@
-           
+
+            @*  <div class="col-2">
+            <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Processing</p></a>
+            </div>
+            <div class="col-2">
+            <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Delivering</p></a>
+            </div>
+            <div class="col-2">
+            <a asp-action="Index" asp-controller="Orders" asp-route-OrderShippingStatus="Processing"><p class="font-weight-bold ">Completed</p></a>
+            </div> *@
+
         </div>
     </div>
 </div>
@@ -112,12 +117,12 @@
 
 <style>
     /*  body {
-                    color: #000;
-                    overflow-x: hidden;
-                    height: 100%;
-                    background-color: #8C9EFF;
-                    background-repeat: no-repeat;
-                } */
+                        color: #000;
+                        overflow-x: hidden;
+                        height: 100%;
+                        background-color: #8C9EFF;
+                        background-repeat: no-repeat;
+                    } */
 
     .card {
         z-index: 0;
@@ -237,11 +242,13 @@
     .eee {
         margin-top: -40px;
     }
-    a{
-        color:black;
-    }   
-    a .act {
-        color: red;
+
+    a {
+        color: black;
     }
+
+        a .act {
+            color: red;
+        }
 
 </style>

@@ -8,15 +8,11 @@ using System.Text.Encodings.Web;
 using System.Text;
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using KFCApplication.Areas.Identity.Pages.Account;
-using KFCApplication.Models;
 using System.Threading.Tasks;
 using System.Threading;
 using System;
-using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using KFCApplication.Areas.Identity.Pages.Account;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -40,9 +36,9 @@ namespace KFCApplication.Controllers
         {
             String userName = User.Identity.Name;
             var user = _context.Users.Include(u => u.Profile).SingleOrDefault(u => u.UserName == userName);
-                var existingProfile = user.Profile;
+            var existingProfile = user.Profile;
 
-            
+
             return View(existingProfile);
         }
         public IActionResult AccessDenied()
@@ -98,7 +94,7 @@ namespace KFCApplication.Controllers
             {
                 var user = CreateUser();
 
-               
+
 
                 await _userStore.SetUserNameAsync(user, model.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, model.Email, CancellationToken.None);
@@ -131,7 +127,7 @@ namespace KFCApplication.Controllers
                         return LocalRedirect(returnUrl);
                     }
 
-                 
+
                 }
                 foreach (var error in result.Errors)
                 {
@@ -139,7 +135,7 @@ namespace KFCApplication.Controllers
                 }
             }
 
-           
+
 
             return View(model);
         }
@@ -193,6 +189,7 @@ namespace KFCApplication.Controllers
             {
                 if (avatar != null)
                 {
+                   
                     //Save file to physical storage
                     string fileName = Guid.NewGuid() + ".jpg";
                     Directory.CreateDirectory(Path.Combine(_webRoot, "images"));
@@ -230,7 +227,7 @@ namespace KFCApplication.Controllers
         //[Authorize(Roles ="admin")]
         public IActionResult ManageRole([FromServices] KFCApplicationContext context)
         {
-            var users = context.Users.Include(x =>x.Profile).ToList();
+            var users = context.Users.Include(x => x.Profile).ToList();
             ViewBag.Users = users;
             return View();
         }

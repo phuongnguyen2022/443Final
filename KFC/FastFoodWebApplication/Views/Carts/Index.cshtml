@@ -6,7 +6,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     var sizes = new[] { new { Value = "S", Text = "S" },
     new { Value = "M", Text = "M" }, new { Value = "L", Text = "L" } };
-
 }
 <head>
     <meta charset="utf-8" />
@@ -24,136 +23,81 @@
     <link href="/css/style.css" rel="stylesheet" />
     <link href="/css/responsive.css" rel="stylesheet" />
 </head>
-<h1 style="margin-left: 100px">Your shopping cart</h1>
-
-<table class="table" style="margin-left: 100px">
-    <thead>
-        <tr>
-            <th>
-
-            </th>
-            <th>
-                Name
-            </th>
-            <th>
-                Price
-            </th>
-            <th>
-                Quantity
-            </th>
-            <th>
-                Size
-            </th>
-            <th>
-              Sub Price
-            </th>
-
-        </tr>
-    </thead>
-    <tbody>
-        @{
-            decimal total = 0;
-            var totalFomat = string.Format(new CultureInfo("vi-VN"), "{0:C}", total);
-        }
-        @foreach (var item in Model)
-        {
-            total += item.Price;
-
-            var image = "/images/f1.png";
-            if (item.Dish.DishImage != null)
-            {
-                string img = item.Dish.DishImage.Replace("\\", "/");
-                image = "/" + img;
+<div class="container cart-container" style="border-radius: 10px; padding: 20px; background-color: #f8f9fa;">
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: darkred">CART</h2>
+    <table class="table">
+        <thead style="background-color: darkred; color:white">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Size</th>
+                <th>Sub Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                decimal total = 0;
+                var totalFormat = string.Format(new CultureInfo("vi-VN"), "{0:C}", total);
             }
-            var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", item.Price);
-
-            if(item.Dish.DishStatus == 0)
+            @foreach (var item in Model)
             {
-                <tr data-dishid="@item.DishId" data-cartId="@item.CartId">
-                    <td>
-                        <img id="image" src="@(image)" style="width:70px;" />
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dish.Name)
-                    </td>
-                    <td>
-                       Out of stock
-                    </td>
-                    <td>
-                     
-                    </td>
-                    <td >
-                       
-                    </td>
-                    <td id="price_@item.DishId">
-                        
-                    </td>
+                total += item.Price;
 
-                    <td>
-                        @*  <a asp-action="Edit" asp-route-id="@item.CartId">Edit</a> | *@
-                        @*   <a asp-action="Details" asp-route-id="@item.CartId">Details</a> | *@
-                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId">Delete</a>
-                    </td>
-                </tr>
+                var image = "/images/soldout.png";
+                if (item.Dish.DishImage != null)
+                {
+                    string img = item.Dish.DishImage.Replace("\\", "/");
+                    image = "/" + img;
+                }
+                var price = string.Format(new CultureInfo("vi-VN"), "{0:C}", item.Price);
+
+                if (item.Dish.DishStatus == 0)
+                {
+                    <tr data-dishid="@item.DishId" data-cartId="@item.CartId">
+                        <td><img id="image" src="@(image)" style="width:70px;" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.Dish.Name)</td>
+                        <td>Out of stock</td>
+                        <td></td>
+                        <td></td>
+                        <td id="price_@item.DishId"></td>
+                        <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId">Delete</a></td>
+                    </tr>
+                }
+                else
+                {
+                    <tr data-dishid="@item.DishId" data-cartId="@item.CartId">
+                        <td><img id="image" src="@(image)" style="width:70px;" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.Dish.Name)</td>
+                        <td>@price</td>
+                        <td>
+                            <button type="button" onclick="adjustQuantity('@item.DishId', 'down',this)" style="border-radius: 5px">-</button>
+                            <input name="quantity" value="@item.Quantity" id="quantity_@item.DishId" class="quantity" style="border-radius: 5px" />
+                            <button type="button" onclick="adjustQuantity('@item.DishId', 'up',this)" style="border-radius: 5px">+</button>
+                        </td>
+                        <td>
+                            @{
+                                var selectList = new SelectList(sizes, "Value", "Text", item.size);
+                            }
+                            <select asp-items="selectList" onchange="changeSize(@item.DishId,this,@item.CartId)" style="border-radius: 5px"></select>
+                        </td>
+                        <td id="price_@item.DishId">@price</td>
+                        <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId"><i class="fa fa-trash"></i></a></td>
+                    </tr>
+                }
             }
-            else
-            {
-                <tr data-dishid="@item.DishId" data-cartId="@item.CartId">
-                    <td>
-                        <img id="image" src="@(image)" style="width:70px;" />
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dish.Name)
-                    </td>
-                    <td>
-                        @price
-                    </td>
-                    <td>
-                        <button type="button" onclick="adjustQuantity('@item.DishId', 'down',this)">-</button>
-                        <input name="quantity" value="@item.Quantity" id="quantity_@item.DishId" class="quantity" />
-                        <button type="button" onclick="adjustQuantity('@item.DishId', 'up',this)">+</button>
-                    </td>
-                    <td>
-                        @{
-                            var selectList = new SelectList(sizes, "Value", "Text", item.size);
-                        }
-                        <select asp-items="selectList" onchange="changeSize(@item.DishId,this,@item.CartId)"></select>
-                    </td>
-                    <td id="price_@item.DishId">
-                        @price
-                    </td>
-
-                    <td>
-                        @*  <a asp-action="Edit" asp-route-id="@item.CartId">Edit</a> | *@
-                        @*   <a asp-action="Details" asp-route-id="@item.CartId">Details</a> | *@
-                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CartId">Delete</a>
-                    </td>
-                </tr>
-            }
-            
-        }
-
-    </tbody>
-    @* <a asp-action="PlaceOrder" asp-controller="Order">Check out</a> *@
-</table>
-<div class="container">
+        </tbody>
+    </table>
     <div class="row">
-        <div class="col-10">
-        </div>
+        <div class="col-10"></div>
         <div class="col-2">
-            
-                <span style="font-weight: bold; padding-right:10px;">Total:</span><span id="totalAmount">  @totalFomat</span>
-            
+            <span style="font-weight: bold; padding-right:10px; margin-bottom: 15px;">Total:</span><span id="totalAmount">@totalFormat</span>
         </div>
     </div>
-
-</div>
-    </div>
-</div>
-<div class="container">
     <div class="row">
-        <div class="col-10">
-        </div>
+        <div class="col-10"></div>
         <div class="col-2">
             @{
                 if (Model.Any())
@@ -163,12 +107,12 @@
                 else
                 {
                     <button class="btn btn-primary" disabled>Check out</button>
-                   
                 }
             }
         </div>
     </div>
 </div>
+
 <style>
     #image {
         width: 150px;
@@ -176,11 +120,17 @@
 
     .quantity {
         width: 50px;
-        text-align: center
+        text-align: center;
+    }
+
+    .cart-container {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: #f8f9fa;
     }
 </style>
 
-@section Scripts{
+@section Scripts {
     <script>
         function changeSize(productId, ele, cartId) {
             var newSize = $(ele).val();
@@ -192,8 +142,6 @@
             console.log("Selector:", selector);
 
             var col = $(selector);
-
-
 
             $.post(`/Carts/UpdateCartBySize?dishId=${productId}&size=${newSize}&cartID=${cartId}`, function (data) {
                 console.log("Server response:", data);
@@ -207,18 +155,18 @@
                         quantityElement.html(data.updatedQuantity);
                         var priceElement = $('#price_' + productId);
                         priceElement.html(data.updatedPrice);
-                        var updatedTotal = updateTotal();
                         col.remove();
                     } else {
                         var priceElement = $('#price_' + productId);
                         priceElement.html(data.updatedPrice);
-                        var updatedTotal = updateTotal();
                     }
+                    updateTotal();
                 } else {
                     console.error('Update failed.');
                 }
             });
         }
+
         function updateTotal() {
             $.get('/Carts/GetTotal', function (total) {
                 $('#totalAmount').html(total);
@@ -234,29 +182,32 @@
             } else if (direction === 'down' && currentQuantity > 1) {
                 quantityElement.val(currentQuantity - 1);
             }
-            var updatedTotal = updateTotal();
-            console.log("Updated total:", updatedTotal);
 
             updateCart(productId, quantityElement.val(), ele);
         }
+
         function updateCart(productId, newQuantity, ele) {
-            var sizeElement = $(ele).closest('tr').find('td').find('select');
+            var sizeElement = $(ele).closest('tr').find('select');
             var size = sizeElement.val();
             var url = '@Url.Action("UpdateCart", "Carts")';
+
             $.post(url, { dishId: productId, quantity: newQuantity, size: size }, function (data) {
                 if (data.success) {
                     // Update the price on the client side
                     var priceElement = $('#price_' + productId);
                     priceElement.html(data.updatedPrice); // Display the price with 2 decimal places
+
+                    // Update the total price after updating the cart
+                    updateTotal();
                 } else {
                     // Handle the case where the update was not successful
                     console.error('Update failed.');
                 }
             });
         }
+
         $(document).ready(function () {
             updateTotal();
         });
-
     </script>
-            }
+}
