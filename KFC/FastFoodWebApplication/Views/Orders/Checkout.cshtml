@@ -44,7 +44,7 @@
                                     <td>
                                         <img src='@image' class='full-width'></img>
                                     </td>
-                                    <td>
+                                    <td style="margin-left: 15px;" >
                                         <span class='thin'>@item.Dish.Name</span>
                                         <br> <span class='thin small'>Size: @item.size<br></span>
                                         <span class='thin small'>Quantity:@item.Quantity<br></span>
@@ -71,17 +71,19 @@
                 </div>
                 <div class='total' id="total">
                     <span style='float:left;'>
-                        <div class='thin dense'>Sub total </div>
-                        <div class='thin dense'>Membership</div>
+                        <div class='thin dense'>Subtotal </div>
+                        <div class='thin dense'>Membership Discount</div>
                         <div class='thin dense'>Voucher </div>
                         <div class='thin dense'>Delivery fee</div>
-                        <div class='thin dense'>TOTAL</div>
+                        <br />
+                        <div class='thin dense' style="font-weight:600">TOTAL</div>
                     </span>
                     <span style='float:right; text-align:right;'>
                         <div class='thin dense'>@subPrice</div>
                         <div class='thin dense' id="membership">-@discount</div>
                         <div class='thin dense' id='selectedVoucher'>None</div>
                         <div class='thin dense'>0</div>
+                        <br />
                         <div class='thin dense' id="subTotal" style="font-weight:600">@subPrice</div>
                     </span>
                 </div>
@@ -89,6 +91,7 @@
         </div>
         <div class='credit-info' >
             <div class='credit-info-content' style="justify-self: top">
+                <h2>Information</h2>
                 <form method="post" asp-action="PlaceOrder" asp-controller="Orders">
                     <table class='half-input-table'>
                         <tr>
@@ -259,7 +262,7 @@
         background: #ffffff; /* KFC Theme */
         display: flex;
         box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
-        border-radius: 30px;
+        border-radius: 15px;
         z-index: 10;
     }
 
@@ -282,9 +285,9 @@
         color: #000000; /* KFC Theme */
         display: flex;
         justify-content: center;
-        align-items: center;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
+        /* align-items: center; */
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         padding-left: 25px;
         padding-right: 25px;
         box-sizing: border-box;
@@ -310,7 +313,7 @@
         background: red; /* KFC Theme */
         color: #ffffff; /* KFC Theme */
         font-weight: 700;
-        width: 100%;
+        width: 70%;
         cursor: pointer;
         transition: all .2s ease;
         font-size: 14px;
@@ -321,6 +324,7 @@
         display: block;
         text-align: center;
         box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
+        border-radius: 5px;
     }
 
         .pay-btn:hover {
