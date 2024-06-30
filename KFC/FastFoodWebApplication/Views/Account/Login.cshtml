@@ -5,13 +5,13 @@
 }
 @await Html.PartialAsync("_HeadPartial")
 
-<h1 class="text-center">@ViewData["Title"]</h1>
+<h1 class="text-center" style="font-family:Open Sans">@ViewData["Title"]</h1>
 <div class="container">
     <div class="row justify-content-center align-items-center">
         <div class="col-md-4">
             <section>
                 <form id="account" method="post">
-                    <h2 class="text-center">Use a local account to log in.</h2>
+                    <h4 class="text-center" style="font-family:Open Sans;">Use a local account to log in.</h4>
                     <hr />
                     <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                     <div class="form-floating mb-3">

@@ -474,9 +474,9 @@ a:focus {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
     list-style-type: none;
-    margin: 45px 0 20px 0;
+    margin: 0px 0 20px 0;
 
     li {
       padding: 7px 25px;
@@ -506,7 +506,6 @@ a:focus {
       justify-content: center;
       align-items: center;
       height: 215px;
-      border-radius: 0 0 0 45px;
       margin: -1px;
       padding: 25px;
 

@@ -1,10 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace KFCApplication.Models
+﻿namespace KFCApplication.Models
 {
     public class OrderDetail
     {
-       
+
         public int OrderId { get; set; }
         public Order Order { get; set; }
         public int DishId { get; set; }

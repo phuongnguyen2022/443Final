@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Drawing;
 
 namespace KFCApplication.Models
 {
@@ -7,7 +6,7 @@ namespace KFCApplication.Models
     {
         [Key]
         public int CartId { get; set; }
-        public int DishId {  get; set; }
+        public int DishId { get; set; }
         public Dish Dish { get; set; }
         public int Quantity { get; set; }
         public decimal Price { get; set; }

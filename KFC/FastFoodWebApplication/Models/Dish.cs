@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
 namespace KFCApplication.Models
@@ -21,9 +20,9 @@ namespace KFCApplication.Models
         public int DishTypeId { get; set; }
         public DishType DishType { get; set; }
         [DataType(DataType.Currency)]
-    
+
         [Range(0, (double)decimal.MaxValue)]
- 
+
         public decimal DishPrice { get; set; }
         public string DishImage { get; set; }
 

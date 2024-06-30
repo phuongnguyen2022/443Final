@@ -75,7 +75,6 @@
                         <div class='thin dense'>Membership Discount</div>
                         <div class='thin dense'>Voucher </div>
                         <div class='thin dense'>Delivery fee</div>
-                        <br />
                         <div class='thin dense' style="font-weight:600">TOTAL</div>
                     </span>
                     <span style='float:right; text-align:right;'>
@@ -83,7 +82,6 @@
                         <div class='thin dense' id="membership">-@discount</div>
                         <div class='thin dense' id='selectedVoucher'>None</div>
                         <div class='thin dense'>0</div>
-                        <br />
                         <div class='thin dense' id="subTotal" style="font-weight:600">@subPrice</div>
                     </span>
                 </div>
@@ -91,7 +89,7 @@
         </div>
         <div class='credit-info' >
             <div class='credit-info-content' style="justify-self: top">
-                <h2>Information</h2>
+                <h2 style="color:white;">Information</h2>
                 <form method="post" asp-action="PlaceOrder" asp-controller="Orders">
                     <table class='half-input-table'>
                         <tr>
@@ -110,7 +108,7 @@
                             <td>Vouchers</td>
                             <td>
                                 <select class="input-field" name="voucherCode" id="voucherCode">
-                                    <option value="0-0" class="font">None</option>
+                                    <option value="0-0" class="font" style="color:white;">None</option>
                                     @foreach (var i in vouchers)
                                     {
                                         <option class="font" value="@i.Voucher.Amount-@i.Voucher.ID">@i.Voucher.Code - @i.Voucher.Amount%</option>
@@ -219,7 +217,7 @@
             }
 
     .font {
-        color: black;
+        color: white !important;
         font-size: 12px;
     }
 
@@ -262,7 +260,7 @@
         background: #ffffff; /* KFC Theme */
         display: flex;
         box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
-        border-radius: 15px;
+        border-radius:15px;
         z-index: 10;
     }
 
@@ -279,10 +277,10 @@
         }
 
     .credit-info {
-        background: #e2e2e2; /* KFC Theme */
+        background: darkred; /* KFC Theme */
         height: 100%;
         width: 30%;
-        color: #000000; /* KFC Theme */
+        color: white; /* KFC Theme */
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -299,7 +297,7 @@
         }
 
     .input-field {
-        background: rgba(255,255,255,0.1);
+        background: white;
         border: none;
         padding: 10px;
         margin-top: 5px;

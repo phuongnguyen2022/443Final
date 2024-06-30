@@ -1,5 +1,4 @@
-﻿using KFCApplication.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +30,6 @@ namespace KFCApplication
             return new PaginatedList<T>(items, count, pageIndex, pageSize);
         }
 
-        
+
     }
 }

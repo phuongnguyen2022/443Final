@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="row justify-content-between text-left">
                                     <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Type<span class="text-danger"> *</span></label>   <select style=" padding:9px 15px;margin: 5px 0px;" asp-for="DishTypeId" id="lname" class="form-control" asp-items="ViewBag.DishTypeId"></select> </div>
-                                    <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dish Status<span class="text-danger"> *</span></label> <input type="text" id="mob" asp-for="DishStatus" placeholder="" onblur="validate(4)" value="1" readonly> </div>
+                                    <div class="form-group col-sm-6 flex-column d-flex" style="display: none;"> <label class="form-control-label px-3" style="display: none;">Dish Status<span class="text-danger"> *</span></label> <input type="text" id="mob" asp-for="DishStatus" placeholder="" onblur="validate(4)" value="1" readonly style="display: none;" /></div>
                                 </div>
                                 <div class="row justify-content-between text-left">
                                     <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Description<span class="text-danger"> *</span></label> <textarea rows="4" type="text" id="job" asp-for="Description" placeholder="" onblur="validate(5)"></textarea></div>
@@ -112,6 +112,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <a asp-action="Index" style="margin-left: 100px">Back to List</a>
             </div>
         </div>
     </div>

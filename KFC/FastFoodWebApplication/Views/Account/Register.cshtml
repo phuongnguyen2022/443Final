@@ -4,13 +4,13 @@
 }
 @await Html.PartialAsync("_HeadPartial")
 
-<h1 class="text-center">@ViewData["Title"]</h1>
+<h1 class="text-center" style="font-family:Open Sans">@ViewData["Title"]</h1>
 
 <div class="container">
     <div class="row justify-content-center align-items-center">
         <div class="col-md-4">
             <form id="registerForm" asp-route-returnUrl="@ViewBag.ReturnUrl" method="post">
-                <h2 class="text-center">Sign up a new account.</h2>
+                <h4 class="text-center" style="font-family:Open Sans">Sign up a new account.</h4>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                 <div class="form-floating mb-3">
@@ -28,7 +28,7 @@
                     <label asp-for="ConfirmPassword">Confirm Password</label>
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
-                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Sign Up</button>
             </form>
         </div>
     </div>

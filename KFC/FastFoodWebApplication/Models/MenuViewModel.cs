@@ -8,7 +8,7 @@ namespace KFCApplication.Models
         public List<Dish> Dishes { get; set; }
         public SelectList DishTypes { get; set; }
 
-        public string DishType { get; set; }   
-        public string SearchString { get; set;}
+        public string DishType { get; set; }
+        public string SearchString { get; set; }
     }
 }
